@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TelerikSample.Views.MainPage"
+             x:Class="TelerikSample.Views.SampleMaster"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
-            
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"            
              xmlns:telerik="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
              xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls"
-             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
              Title="Action Items">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness">
@@ -42,7 +41,7 @@
             </Grid.RowDefinitions>
 
             <StackLayout Grid.Row="0" Orientation="Vertical" Padding="10,0,0,0">
-                <Label Text="Open Action Items" FontSize="20" TextColor="White"
+                <Label Text="Open Action Items MASTER" FontSize="20" TextColor="White"
                    HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
             </StackLayout>
             <Grid Grid.Row="1" ColumnSpacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">

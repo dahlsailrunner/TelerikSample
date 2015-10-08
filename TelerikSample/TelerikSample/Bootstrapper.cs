@@ -9,12 +9,21 @@ namespace TelerikSample
     {
         protected override Page CreateMainPage()
         {
-            return Container.Resolve<MainPage>();
+            try
+            {
+                var page = Container.Resolve<MainPage>();
+                return page;
+            }
+            catch (ResolutionFailedException ex)
+            {
+                
+            }
+            return null;
         }
 
         protected override void RegisterTypes()
         {
-            //Container.RegisterTypeForNavigation<LoginPage>();
+            Container.RegisterTypeForNavigation<MainSettingsStuff>();
         }
     }
 }

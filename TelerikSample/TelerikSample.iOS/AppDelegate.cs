@@ -6,10 +6,11 @@ using Foundation;
 using UIKit;
 using XLabs.Forms;
 using Xamarin.Forms;
+using Telerik.XamarinForms.Common.iOS;
 using Xamarin.Forms.Platform.iOS;
 using Telerik.XamarinForms.DataControlsRenderer.iOS;
 
-//[assembly: Xamarin.Forms.ExportRenderer(typeof(Telerik.XamarinForms.DataControls.RadListView), typeof(Telerik.XamarinForms.DataControlsRenderer.iOS.ListViewRenderer))]
+[assembly: ExportRenderer(typeof(Telerik.XamarinForms.DataControls.RadListView), typeof(Telerik.XamarinForms.DataControlsRenderer.iOS.ListViewRenderer))]
 
 namespace TelerikSample.iOS
 {
@@ -17,7 +18,7 @@ namespace TelerikSample.iOS
     // User Interface of the application, as well as listening (and optionally responding) to 
     // application events from iOS.
     [Register("AppDelegate")]
-    public partial class AppDelegate : FormsApplicationDelegate //XFormsApplicationDelegate//global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
+    public partial class AppDelegate : XFormsApplicationDelegate//global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
     {
         //
         // This method is invoked when the application has loaded and is ready to run. In this 
@@ -30,7 +31,8 @@ namespace TelerikSample.iOS
         {
             new Telerik.XamarinForms.DataControlsRenderer.iOS.ListViewRenderer();            
 
-            Forms.Init();
+            Forms.Init(); 
+            TelerikForms.Init();           
             LoadApplication(new App());
             
             return base.FinishedLaunching(app, options);

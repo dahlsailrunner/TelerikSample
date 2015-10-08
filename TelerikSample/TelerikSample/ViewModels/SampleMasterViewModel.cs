@@ -11,23 +11,28 @@ using Xamarin.Forms;
 
 namespace TelerikSample.ViewModels
 {
-    public class MainPageViewModel : MyBindableBase, INavigationAware
+    public class SampleMasterViewModel : MyBindableBase, INavigationAware
     {
         public DelegateCommand SampleCommand { get; set; }
 
         private bool _multiSelect;
+
         public bool MultiSelect
         {
             get { return _multiSelect; }
             set { SetProperty(ref _multiSelect, value); }
         }
+
         private bool _isLoading;
+
         public bool IsLoading
         {
             get { return _isLoading; }
             set { SetProperty(ref _isLoading, value); }
         }
+
         private string _resolveStr;
+
         public string ResolveStr
         {
             get { return _resolveStr; }
@@ -35,6 +40,7 @@ namespace TelerikSample.ViewModels
         }
 
         private string _selectStr;
+
         public string SelectStr
         {
             get { return _selectStr; }
@@ -42,6 +48,7 @@ namespace TelerikSample.ViewModels
         }
 
         private string _groupStr;
+
         public string GroupStr
         {
             get { return _groupStr; }
@@ -49,6 +56,7 @@ namespace TelerikSample.ViewModels
         }
 
         private string _selectedActionTypes;
+
         public string SelectedActionTypes
         {
             get { return _selectedActionTypes; }
@@ -56,12 +64,15 @@ namespace TelerikSample.ViewModels
         }
 
         private ObservableCollection<ActionItem> _actionItems;
+
         public ObservableCollection<ActionItem> ActionItems
         {
             get { return _actionItems; }
             set { SetProperty(ref _actionItems, value); }
         }
+
         private string _psrName;
+
         public string PsrName
         {
             get { return _psrName; }
@@ -69,6 +80,7 @@ namespace TelerikSample.ViewModels
         }
 
         private string _psrPhone;
+
         public string PsrPhone
         {
             get { return _psrPhone; }
@@ -76,6 +88,7 @@ namespace TelerikSample.ViewModels
         }
 
         private string _psrEmail;
+
         public string PsrEmail
         {
             get { return _psrEmail; }
@@ -83,6 +96,7 @@ namespace TelerikSample.ViewModels
         }
 
         private string _amName;
+
         public string AmName
         {
             get { return _amName; }
@@ -90,6 +104,7 @@ namespace TelerikSample.ViewModels
         }
 
         private string _amPhone;
+
         public string AmPhone
         {
             get { return _amPhone; }
@@ -97,6 +112,7 @@ namespace TelerikSample.ViewModels
         }
 
         private string _amEmail;
+
         public string AmEmail
         {
             get { return _amEmail; }
@@ -104,13 +120,14 @@ namespace TelerikSample.ViewModels
         }
 
         private string _loadText;
+
         public string LoadText
         {
             get { return _loadText; }
             set { SetProperty(ref _loadText, value); }
         }
 
-        public MainPageViewModel(INavigationService navigationService, IEventAggregator eventAggregator)
+        public SampleMasterViewModel(INavigationService navigationService, IEventAggregator eventAggregator)
             : base(navigationService, eventAggregator)
         {
             MultiSelect = false;
@@ -119,18 +136,18 @@ namespace TelerikSample.ViewModels
             SampleCommand = new DelegateCommand(RunSampleCommand);
 
             LoadData();
-            
+
             SelectStr = "Select";
             SelectedActionTypes = "";
             GroupStr = "Action Type";
-            ResolveStr = "Resolve";                        
-                        
+            ResolveStr = "Resolve";
+
             IsLoading = false;
         }
 
         private void RunSampleCommand()
         {
-            NavService.Navigate("MainSettingsStuff");
+            NavService.Navigate("MasterDetailPage");
             //var s = DependencyService.Get<ISaveAndLoad>();
             //s.Save("filename", new MemoryStream());
         }
@@ -141,7 +158,7 @@ namespace TelerikSample.ViewModels
         //}
 
         public void LoadData()
-        {            
+        {
             var actions = ApiServiceMock.GetActionItems();
             foreach (var actionItem in actions)
             {
@@ -162,8 +179,8 @@ namespace TelerikSample.ViewModels
                         actionItem.RightAction = "TBD";
                         break;
                 }
-            }       
-                 
+            }
+
             ActionItems = new ObservableCollection<ActionItem>(actions);
 
             PsrName = actions[0].PropSvcRep;
@@ -182,7 +199,11 @@ namespace TelerikSample.ViewModels
         }
 
         #region Implementation of INavigationAware
-        public void OnNavigatedFrom(NavigationParameters parameters) { }
+
+        public void OnNavigatedFrom(NavigationParameters parameters)
+        {
+        }
+
         public void OnNavigatedTo(NavigationParameters parameters)
         {
             if (ActionItems.Count < 1)
@@ -193,14 +214,14 @@ namespace TelerikSample.ViewModels
             var items = ActionItems.Where(x => x.InstanceId != knock.InstanceId).ToList();
             ActionItems = new ObservableCollection<ActionItem>(items);
         }
+
         #endregion
 
         public bool AreAnySelected
         {
-            get
-            {
-                return ActionItems.Any(x => x.IsSelected);
-            }
-        }        
+            get { return ActionItems.Any(x => x.IsSelected); }
+        }
     }
 }
+
+
