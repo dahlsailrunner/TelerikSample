@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             mvvm:ViewModelLocator.AutowireViewModel="True"                         
+             xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             x:Class="TelerikSample.Views.ListViewIssues">
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness">
+      <OnPlatform.iOS>
+        0, 20, 0, 0
+      </OnPlatform.iOS>
+      <OnPlatform.Android>
+        0, 0, 0, 0
+      </OnPlatform.Android>
+      <OnPlatform.WinPhone>
+        0, 0, 0, 0
+      </OnPlatform.WinPhone>
+    </OnPlatform>
+  </ContentPage.Padding>
+  <Grid BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"></RowDefinition>
+      <RowDefinition Height="*"></RowDefinition>
+      <!--TODO: contact NWP row -->
+      <!--<RowDefinition Height="Auto"></RowDefinition>-->
+    </Grid.RowDefinitions>
+    <!--Header Grid-->
+    <Grid Grid.Row="0" BackgroundColor="#448AFF" Padding="5,5,5,0" >
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"></RowDefinition>
+        <RowDefinition Height="Auto"></RowDefinition>
+        <RowDefinition Height="Auto"></RowDefinition>
+      </Grid.RowDefinitions>
+      <Button Grid.Column="0" Grid.Row="0" Text="{Binding AcceptBtnStr}"
+        BackgroundColor="#0D47A1" HorizontalOptions="FillAndExpand" BorderRadius="0" Command="{Binding AcceptBilling}"/>
+      <Button Grid.Column="0" Grid.Row="0" Text="{Binding AcceptBtnStr}"
+        TextColor="White" BackgroundColor="#1D3970" HorizontalOptions="FillAndExpand" BorderRadius="0" Command="{Binding AcceptBilling}"/>
+      <Label Grid.Column="1"  Grid.Row="0" FontSize="18" FontAttributes="Bold"
+       Text="{Binding BillDate, StringFormat='{0} Billing'}" TextColor="White"
+       HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+      <Button Grid.Column="2" Grid.Row="0" Text="{Binding RejectBtnStr}" BorderRadius="0"
+          BackgroundColor="#0D47A1" TextColor="White"  HorizontalOptions="FillAndExpand" Command="{Binding RejectBilling}"/>
+      <Button Grid.Column="2" Grid.Row="0" Text="{Binding RejectBtnStr}" BorderRadius="0"
+          TextColor="White" BackgroundColor="#1D3970" HorizontalOptions="FillAndExpand" Command="{Binding RejectBilling}"/>
+      <StackLayout Padding="5,0,0,5" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" BackgroundColor="#448AFF">
+        <Label Text="{Binding ActionItem.Property}" IsVisible="{Binding IsNotRejecting}"
+     IsEnabled="{Binding IsNotRejecting}" TextColor="White" FontSize="18" LineBreakMode="TailTruncation"/>
+        <controls:BindablePicker x:Name="rejectionOptionPicker" Title="Please select"
+                BackgroundColor="#448AFF" SelectedItem="{Binding SelectedRejectionReason}"
+                IsVisible="{Binding IsRejecting}" IsEnabled="{Binding IsRejecting}" ItemsSource="{Binding RejectionReasons}"/>
+        <Entry x:Name="RejectionNotesEntry"
+                IsVisible="{Binding IsRejecting}" IsEnabled="{Binding IsRejecting}"
+                Placeholder="Notes" Text="{Binding RejectionNotes}" TextColor="White"/>
+      </StackLayout>
+    </Grid>
+    <!--ContentGrid-->
+    <Grid Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"></RowDefinition>
+        <RowDefinition Height="*"></RowDefinition>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+      <StackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="StartAndExpand">
+        <Button Text="{Binding GroupByStr, StringFormat='Grouped by: {0}'}" Command="{Binding GroupByCommand}" HorizontalOptions="CenterAndExpand" TextColor="Black" Opacity="0.87"></Button>
+      </StackLayout>
+      <StackLayout Grid.Row="0" Grid.Column="1" Padding="0,0,5,0" HorizontalOptions="EndAndExpand">
+        <Label Text="{Binding NwpDayStr, StringFormat='NWP Days: {0}'}" TextColor="Black" Opacity="0.87"></Label>
+      </StackLayout>
+
+      <ListView ItemsSource="{Binding Services}" IsVisible="{Binding IsGroupedByService}" IsEnabled="False" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Transparent"
+                VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <StackLayout Padding="5,5,5,5">
+                <!--<Frame BackgroundColor="#e8e8e8" Padding="20,10,20,20" HasShadow="True" OutlineColor="Transparent" >-->
+                <Grid Padding="20,10,20,20" BackgroundColor="#e8e8e8">
+                  <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                  </Grid.RowDefinitions>
+                  <StackLayout Grid.Row="0">
+                    <Label Text="{Binding ServiceType}" TextColor="Black" Opacity="0.87" FontAttributes="Bold"></Label>
+                    <BoxView BackgroundColor="Black" Opacity="0.87" MinimumHeightRequest="1" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
+                  </StackLayout>
+                  <StackLayout Grid.Row="1" BackgroundColor="Transparent">
+                    <ListView ItemsSource="{Binding ServiceDetails}" HasUnevenRows="True" BackgroundColor="Transparent" IsVisible="True" IsEnabled="False" VerticalOptions="FillAndExpand">
+                      <ListView.ItemTemplate>
+                        <DataTemplate>
+                          <ViewCell>
+                            <Grid Padding="5,5,5,5" BackgroundColor="#e8e8e8">
+                              <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                              </Grid.RowDefinitions>
+                              <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                              </Grid.ColumnDefinitions>
+                              <StackLayout Grid.Row="0" Grid.Column="0">
+                                <Label Text="{Binding UtlBillAcctNo, StringFormat='Account: {0}'}" BackgroundColor="#e8e8e8" TextColor="Black" Opacity="0.54"/>
+                              </StackLayout>
+                              <StackLayout Grid.Row="0" Grid.Column="1">
+                                <StackLayout Padding="0,0,5,0" IsVisible="{Binding IsDefaulted}" IsEnabled="False"
+     HorizontalOptions="End" BackgroundColor="Red" VerticalOptions="Center">
+                                  <StackLayout Padding="7,2,4,4" BackgroundColor="Transparent">
+                                    <Label Text="Defaulted" BackgroundColor="Transparent" FontSize="10" TextColor="White" HorizontalOptions="End" VerticalOptions="Center"/>
+                                  </StackLayout>
+                                </StackLayout>
+                              </StackLayout>
+                              <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                                <Label Text="{Binding ChargeAmt, StringFormat='Bill Amount: {0:C0}'}" BackgroundColor="#e8e8e8" TextColor="Black" Opacity="0.54"></Label>
+                              </StackLayout>
+                              <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                                <Label Text="{Binding DnaLwdAmt, StringFormat='Excluded: {0:C0}'}" BackgroundColor="#e8e8e8" TextColor="Black" Opacity="0.54"></Label>
+                              </StackLayout>
+                              <StackLayout Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+                                <Label Text="{Binding ProratedAmt, StringFormat='NWP Allocation: {0:C0}'}" BackgroundColor="#e8e8e8" TextColor="Black" Opacity="0.54"></Label>
+                              </StackLayout>
+                              <StackLayout Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2">
+                                <Label Text="{Binding NumDays, StringFormat='Days: {0}'}" BackgroundColor="#e8e8e8" TextColor="Black" Opacity="0.54"></Label>
+                              </StackLayout>
+                              <StackLayout Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2">
+                                <BoxView BackgroundColor="Black" Opacity="0.54" MinimumHeightRequest="1" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
+                              </StackLayout>
+                            </Grid>
+                          </ViewCell>
+                        </DataTemplate>
+                      </ListView.ItemTemplate>
+                    </ListView>
+                  </StackLayout>
+                  <StackLayout Grid.Row="2" HorizontalOptions="End">
+                    <Label Text="{Binding BillCount, StringFormat='Total Bills: {0}'}" FontAttributes="Bold" TextColor="Black" Opacity="0.54"></Label>
+                    <Label Text="{Binding TotalAllocation, StringFormat='NWP Allocation: {0:C0}'}" FontAttributes="Bold" TextColor="Black" Opacity="0.54"></Label>
+                  </StackLayout>
+                </Grid>
+                <!--</Frame>-->
+              </StackLayout>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+
+      <ListView ItemsSource="{Binding Accounts}" IsVisible="{Binding IsGroupedByAccount}" IsEnabled="False" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Transparent"
+                    VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <StackLayout Padding="5,5,5,5">
+                <!--<Frame BackgroundColor="#e8e8e8" Padding="20,10,20,20" HasShadow="True" OutlineColor="Transparent" >-->
+                <Grid Padding="20,10,20,20" BackgroundColor="#e8e8e8">
+                  <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                  </Grid.RowDefinitions>
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                  </Grid.ColumnDefinitions>
+                  <StackLayout Grid.Row="0" Grid.Column="0" Orientation="Vertical" BackgroundColor="Transparent">
+                    <Label Text="{Binding AccountNumber}" TextColor="Black" Opacity="0.87" BackgroundColor="Transparent" FontAttributes="Bold"></Label>
+                  </StackLayout>
+
+                  <StackLayout Grid.Row="0" Grid.Column="1" Padding="0,0,5,0" IsVisible="{Binding IsDefaulted}"
+                   HorizontalOptions="End" BackgroundColor="Red" VerticalOptions="Center">
+                    <StackLayout Padding="7,2,4,4" BackgroundColor="Red">
+                      <Label Text="Defaulted" BackgroundColor="Red" FontSize="10" TextColor="White" HorizontalOptions="End" VerticalOptions="Center"/>
+                    </StackLayout>
+                  </StackLayout>
+                  <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand" BackgroundColor="Transparent">
+                    <ListView ItemsSource="{Binding AccountDetails}" HasUnevenRows="True" BackgroundColor="Transparent" IsVisible="True" IsEnabled="False" VerticalOptions="FillAndExpand">
+                      <ListView.ItemTemplate>
+                        <DataTemplate>
+                          <ViewCell>
+                            <StackLayout Padding="5,5,5,5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                              <Frame Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Transparent">
+                                <StackLayout BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                  <BoxView BackgroundColor="Black" Opacity="0.54" MinimumHeightRequest="1" HeightRequest="1" VerticalOptions="Start" HorizontalOptions="FillAndExpand"></BoxView>
+                                  <Label Text="{Binding OfferingDesc, StringFormat='Service Type: {0}'}" TextColor="Black" Opacity="0.54"></Label>
+                                  <Label Text="{Binding ChargeAmt, StringFormat='Bill Amount: {0:C0}'}"  TextColor="Black" Opacity="0.54"></Label>
+                                  <Label Text="{Binding DnaLwdAmt, StringFormat='Excluded: {0:C0}'}"  TextColor="Black" Opacity="0.54"></Label>
+                                  <Label Text="{Binding ProratedAmt, StringFormat='NWP Allocation: {0:C0}'}"  TextColor="Black" Opacity="0.54"></Label>
+                                  <Label Text="{Binding NumDays, StringFormat='Days: {0}'}"  TextColor="Black" Opacity="0.54"></Label>
+                                </StackLayout>
+                              </Frame>
+                            </StackLayout>
+                          </ViewCell>
+                        </DataTemplate>
+                      </ListView.ItemTemplate>
+                    </ListView>
+                  </StackLayout>
+                  <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="End">
+                    <Label Text="{Binding TotalAllocation, StringFormat='NWP Allocation: {0:C0}'}" FontAttributes="Bold" TextColor="Black" Opacity="0.54"></Label>
+                  </StackLayout>
+                </Grid>
+                <!--</Frame>-->
+              </StackLayout>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </Grid>
+  </Grid>
+</ContentPage>

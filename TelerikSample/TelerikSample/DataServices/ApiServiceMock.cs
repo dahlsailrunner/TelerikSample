@@ -1,5 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using Newtonsoft.Json;
 using TelerikSample.Models;
+using XLabs.Platform.Services.IO;
+using XLabs.Serialization;
 
 namespace TelerikSample.DataServices
 {
@@ -43,5 +47,60 @@ namespace TelerikSample.DataServices
 
             return list;
         }
-    }
+
+        public static List<UtilityAllocation> GetUtilityAllocations()
+        {
+            var list = new List<UtilityAllocation>();
+
+            list.Add(new UtilityAllocation
+            {
+                UtlBillAcctNo = "12345",
+                UtilityNm = "Hyrdo Power",
+                ServicePeriodBeginDate = new DateTime(2015, 7, 25),
+                ServicePeriodEndDate = new DateTime(2015, 8, 25),
+                NumDays = 32,
+                NwpDays    = 31,
+                OfferingDesc = "RUBS Water",
+                ChargeAmt = (decimal) 40.57,
+                DnaLwdAmt = 0,
+                ProratedAmt = (decimal) 39.30,
+                BillDate = new DateTime(2015, 8, 25),
+                IsDefaulted = false
+            });
+
+            list.Add(new UtilityAllocation
+            {
+                UtlBillAcctNo = "12345",
+                UtilityNm = "Hyrdo Power",
+                ServicePeriodBeginDate = new DateTime(2015, 7, 25),
+                ServicePeriodEndDate = new DateTime(2015, 8, 25),
+                NumDays = 32,
+                NwpDays = 31,
+                OfferingDesc = "RUBS Sewer",
+                ChargeAmt = (decimal)50.57,
+                DnaLwdAmt = 0,
+                ProratedAmt = (decimal)49.30,
+                BillDate = new DateTime(2015, 8, 25),
+                IsDefaulted = false
+            });
+
+            list.Add(new UtilityAllocation
+            {
+                UtlBillAcctNo = "46932",
+                UtilityNm = "Hyrdo Power",
+                ServicePeriodBeginDate = new DateTime(2015, 7, 25),
+                ServicePeriodEndDate = new DateTime(2015, 8, 25),
+                NumDays = 32,
+                NwpDays = 31,
+                OfferingDesc = "RUBS Water",
+                ChargeAmt = (decimal)40.57,
+                DnaLwdAmt = 0,
+                ProratedAmt = (decimal)39.30,
+                BillDate = new DateTime(2015, 8, 25),
+                IsDefaulted = false
+            });
+
+            return list;
+        }
+    }    
 }
