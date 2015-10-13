@@ -6,11 +6,11 @@ using Foundation;
 using UIKit;
 using XLabs.Forms;
 using Xamarin.Forms;
-using Telerik.XamarinForms.Common.iOS;
-using Xamarin.Forms.Platform.iOS;
-using Telerik.XamarinForms.DataControlsRenderer.iOS;
 
-[assembly: ExportRenderer(typeof(Telerik.XamarinForms.DataControls.RadListView), typeof(Telerik.XamarinForms.DataControlsRenderer.iOS.ListViewRenderer))]
+using Xamarin.Forms.Platform.iOS;
+
+
+//[assembly: ExportRenderer(typeof(Telerik.XamarinForms.DataControls.RadListView), typeof(Telerik.XamarinForms.DataControlsRenderer.iOS.ListViewRenderer))]
 
 namespace TelerikSample.iOS
 {
@@ -29,10 +29,10 @@ namespace TelerikSample.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            new Telerik.XamarinForms.DataControlsRenderer.iOS.ListViewRenderer();            
+            //new Telerik.XamarinForms.DataControlsRenderer.iOS.ListViewRenderer();            
 
             Forms.Init(); 
-            TelerikForms.Init();           
+            //TelerikForms.Init();           
             LoadApplication(new App());
             
             return base.FinishedLaunching(app, options);

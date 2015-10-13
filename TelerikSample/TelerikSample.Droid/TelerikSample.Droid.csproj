@@ -100,56 +100,6 @@
     <Reference Include="System.Runtime" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
-    <Reference Include="Telerik.Xamarin.Android.Chart">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Chart.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.Xamarin.Android.Common, Version=2015.2.825.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.Xamarin.Android.Data, Version=2015.2.825.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.Xamarin.Android.Input, Version=2015.2.825.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Input.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.Xamarin.Android.List, Version=2015.2.825.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.List.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.Xamarin.Android.Primitives, Version=2015.2.930.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.XamarinForms.ChartRenderer.Android">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Android\Telerik.XamarinForms.ChartRenderer.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.XamarinForms.Common, Version=2015.2.825.144, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.XamarinForms.Common.Android">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Android\Telerik.XamarinForms.Common.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.XamarinForms.DataControls, Version=2015.2.825.144, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.DataControls.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.XamarinForms.DataControlsRenderer.Android, Version=2015.2.825.144, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Android\Telerik.XamarinForms.DataControlsRenderer.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.XamarinForms.InputRenderer.Android">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Android\Telerik.XamarinForms.InputRenderer.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.XamarinForms.Primitives">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.XamarinForms.PrimitivesRenderer.Android">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Android\Telerik.XamarinForms.PrimitivesRenderer.Android.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Android.Support.v4.23.0.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
       <Private>True</Private>

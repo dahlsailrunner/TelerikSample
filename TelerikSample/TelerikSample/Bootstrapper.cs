@@ -24,7 +24,7 @@ namespace TelerikSample
 
         protected override void RegisterTypes()
         {
-            Container.RegisterTypeForNavigation<MainSettingsStuff>();
+            //Container.RegisterTypeForNavigation<MainSettingsStuff>();
         }
     }
 }
