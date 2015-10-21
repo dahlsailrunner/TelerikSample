@@ -4,6 +4,8 @@
              mvvm:ViewModelLocator.AutowireViewModel="True"                         
              xmlns:mvvm="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             xmlns:telerik="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
+             xmlns:listView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls"
              x:Class="TelerikSample.Views.ListViewIssues">
   <ContentPage.Padding>
     <OnPlatform x:TypeArguments="Thickness">
@@ -76,13 +78,14 @@
         <Label Text="{Binding NwpDayStr, StringFormat='NWP Days: {0}'}" TextColor="Black" Opacity="0.87"></Label>
       </StackLayout>
 
-      <ListView ItemsSource="{Binding Services}" IsVisible="{Binding IsGroupedByService}" IsEnabled="False" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Transparent"
-                VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HasUnevenRows="True">
-        <ListView.ItemTemplate>
+      <telerik:RadListView ItemsSource="{Binding Services}" IsVisible="{Binding IsGroupedByService}" IsEnabled="False" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Transparent"
+                VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" >
+        <telerik:RadListView.ItemTemplate>
           <DataTemplate>
-            <ViewCell>
+            <listView:ListViewTemplateCell>
+              <listView:ListViewTemplateCell.View>
               <StackLayout Padding="5,5,5,5">
-                <!--<Frame BackgroundColor="#e8e8e8" Padding="20,10,20,20" HasShadow="True" OutlineColor="Transparent" >-->
+                <Frame BackgroundColor="#e8e8e8" Padding="20,10,20,20" HasShadow="True" OutlineColor="Transparent" >
                 <Grid Padding="20,10,20,20" BackgroundColor="#e8e8e8">
                   <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"></RowDefinition>
@@ -94,10 +97,11 @@
                     <BoxView BackgroundColor="Black" Opacity="0.87" MinimumHeightRequest="1" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
                   </StackLayout>
                   <StackLayout Grid.Row="1" BackgroundColor="Transparent">
-                    <ListView ItemsSource="{Binding ServiceDetails}" HasUnevenRows="True" BackgroundColor="Transparent" IsVisible="True" IsEnabled="False" VerticalOptions="FillAndExpand">
-                      <ListView.ItemTemplate>
+                    <telerik:RadListView ItemsSource="{Binding ServiceDetails}"  BackgroundColor="Transparent" IsVisible="True" IsEnabled="False" VerticalOptions="FillAndExpand">
+                      <telerik:RadListView.ItemTemplate>
                         <DataTemplate>
-                          <ViewCell>
+                         <listView:ListViewTemplateCell>
+                            <listView:ListViewTemplateCell.View>
                             <Grid Padding="5,5,5,5" BackgroundColor="#e8e8e8">
                               <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"></RowDefinition>
@@ -137,31 +141,33 @@
                               <StackLayout Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2">
                                 <BoxView BackgroundColor="Black" Opacity="0.54" MinimumHeightRequest="1" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
                               </StackLayout>
-                            </Grid>
-                          </ViewCell>
+                            </Grid>                           
+                            </listView:ListViewTemplateCell.View>
+                            </listView:ListViewTemplateCell>
                         </DataTemplate>
-                      </ListView.ItemTemplate>
-                    </ListView>
+                      </telerik:RadListView.ItemTemplate>
+                    </telerik:RadListView>
                   </StackLayout>
                   <StackLayout Grid.Row="2" HorizontalOptions="End">
                     <Label Text="{Binding BillCount, StringFormat='Total Bills: {0}'}" FontAttributes="Bold" TextColor="Black" Opacity="0.54"></Label>
                     <Label Text="{Binding TotalAllocation, StringFormat='NWP Allocation: {0:C0}'}" FontAttributes="Bold" TextColor="Black" Opacity="0.54"></Label>
                   </StackLayout>
                 </Grid>
-                <!--</Frame>-->
+                </Frame>
               </StackLayout>
-            </ViewCell>
+                 </listView:ListViewTemplateCell.View>
+            </listView:ListViewTemplateCell>
           </DataTemplate>
-        </ListView.ItemTemplate>
-      </ListView>
+        </telerik:RadListView.ItemTemplate>
+      </telerik:RadListView>
 
-      <ListView ItemsSource="{Binding Accounts}" IsVisible="{Binding IsGroupedByAccount}" IsEnabled="False" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Transparent"
-                    VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" HasUnevenRows="True">
-        <ListView.ItemTemplate>
+      <!--<telerik:RadListView ItemsSource="{Binding Accounts}" IsVisible="{Binding IsGroupedByAccount}" IsEnabled="False" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Transparent"
+                    VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" >
+        <telerik:RadListView.ItemTemplate>
           <DataTemplate>
             <ViewCell>
               <StackLayout Padding="5,5,5,5">
-                <!--<Frame BackgroundColor="#e8e8e8" Padding="20,10,20,20" HasShadow="True" OutlineColor="Transparent" >-->
+                --><!--<Frame BackgroundColor="#e8e8e8" Padding="20,10,20,20" HasShadow="True" OutlineColor="Transparent" >--><!--
                 <Grid Padding="20,10,20,20" BackgroundColor="#e8e8e8">
                   <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"></RowDefinition>
@@ -183,8 +189,8 @@
                     </StackLayout>
                   </StackLayout>
                   <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand" BackgroundColor="Transparent">
-                    <ListView ItemsSource="{Binding AccountDetails}" HasUnevenRows="True" BackgroundColor="Transparent" IsVisible="True" IsEnabled="False" VerticalOptions="FillAndExpand">
-                      <ListView.ItemTemplate>
+                    <telerik:RadListView ItemsSource="{Binding AccountDetails}" BackgroundColor="Transparent" IsVisible="True" IsEnabled="False" VerticalOptions="FillAndExpand">
+                      <telerik:RadListView.ItemTemplate>
                         <DataTemplate>
                           <ViewCell>
                             <StackLayout Padding="5,5,5,5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
@@ -201,19 +207,19 @@
                             </StackLayout>
                           </ViewCell>
                         </DataTemplate>
-                      </ListView.ItemTemplate>
-                    </ListView>
+                      </telerik:RadListView.ItemTemplate>
+                    </telerik:RadListView>
                   </StackLayout>
                   <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="End">
                     <Label Text="{Binding TotalAllocation, StringFormat='NWP Allocation: {0:C0}'}" FontAttributes="Bold" TextColor="Black" Opacity="0.54"></Label>
                   </StackLayout>
                 </Grid>
-                <!--</Frame>-->
+                --><!--</Frame>--><!--
               </StackLayout>
             </ViewCell>
           </DataTemplate>
-        </ListView.ItemTemplate>
-      </ListView>
+        </telerik:RadListView.ItemTemplate>
+      </telerik:RadListView>-->
     </Grid>
   </Grid>
 </ContentPage>

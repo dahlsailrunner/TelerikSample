@@ -100,6 +100,22 @@ namespace TelerikSample.DataServices
                 IsDefaulted = false
             });
 
+            list.Add(new UtilityAllocation
+            {
+                UtlBillAcctNo = "3485798",
+                UtilityNm = "Hyrdo Electric",
+                ServicePeriodBeginDate = new DateTime(2015, 7, 25),
+                ServicePeriodEndDate = new DateTime(2015, 8, 25),
+                NumDays = 32,
+                NwpDays = 31,
+                OfferingDesc = "Electric",
+                ChargeAmt = (decimal)40.57,
+                DnaLwdAmt = 0,
+                ProratedAmt = (decimal)39.30,
+                BillDate = new DateTime(2015, 8, 25),
+                IsDefaulted = false
+            });
+
             return list;
         }
     }    

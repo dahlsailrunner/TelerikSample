@@ -26,6 +26,1326 @@ namespace TelerikSample.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Telerik.XamarinForms.Common.Android.Resource.Color.black = global::TelerikSample.Droid.Resource.Color.black;
+			global::Telerik.XamarinForms.Common.Android.Resource.Color.white = global::TelerikSample.Droid.Resource.Color.white;
+			global::Telerik.XamarinForms.Common.Android.Resource.Layout.trial_message = global::TelerikSample.Droid.Resource.Layout.trial_message;
+			global::Telerik.XamarinForms.Common.Android.Resource.String.ApplicationName = global::TelerikSample.Droid.Resource.String.ApplicationName;
+			global::Telerik.XamarinForms.Common.Android.Resource.String.Hello = global::TelerikSample.Droid.Resource.String.Hello;
+			global::Telerik.XamarinForms.Common.Android.Resource.String.trial_message = global::TelerikSample.Droid.Resource.String.trial_message;
+			global::Telerik.XamarinForms.Common.Android.Resource.String.trial_message_caption = global::TelerikSample.Droid.Resource.String.trial_message_caption;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Animation.abc_fade_in = global::TelerikSample.Droid.Resource.Animation.abc_fade_in;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Animation.abc_fade_out = global::TelerikSample.Droid.Resource.Animation.abc_fade_out;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::TelerikSample.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Animation.abc_popup_enter = global::TelerikSample.Droid.Resource.Animation.abc_popup_enter;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Animation.abc_popup_exit = global::TelerikSample.Droid.Resource.Animation.abc_popup_exit;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::TelerikSample.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Animation.abc_slide_in_bottom = global::TelerikSample.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Animation.abc_slide_in_top = global::TelerikSample.Droid.Resource.Animation.abc_slide_in_top;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Animation.abc_slide_out_bottom = global::TelerikSample.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Animation.abc_slide_out_top = global::TelerikSample.Droid.Resource.Animation.abc_slide_out_top;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionBarDivider = global::TelerikSample.Droid.Resource.Attribute.actionBarDivider;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionBarItemBackground = global::TelerikSample.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionBarPopupTheme = global::TelerikSample.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionBarSize = global::TelerikSample.Droid.Resource.Attribute.actionBarSize;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionBarSplitStyle = global::TelerikSample.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionBarStyle = global::TelerikSample.Droid.Resource.Attribute.actionBarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionBarTabBarStyle = global::TelerikSample.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionBarTabStyle = global::TelerikSample.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionBarTabTextStyle = global::TelerikSample.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionBarTheme = global::TelerikSample.Droid.Resource.Attribute.actionBarTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionBarWidgetTheme = global::TelerikSample.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionButtonStyle = global::TelerikSample.Droid.Resource.Attribute.actionButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionDropDownStyle = global::TelerikSample.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionLayout = global::TelerikSample.Droid.Resource.Attribute.actionLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionMenuTextAppearance = global::TelerikSample.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionMenuTextColor = global::TelerikSample.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionModeBackground = global::TelerikSample.Droid.Resource.Attribute.actionModeBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionModeCloseButtonStyle = global::TelerikSample.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionModeCloseDrawable = global::TelerikSample.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionModeCopyDrawable = global::TelerikSample.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionModeCutDrawable = global::TelerikSample.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionModeFindDrawable = global::TelerikSample.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionModePasteDrawable = global::TelerikSample.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionModePopupWindowStyle = global::TelerikSample.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionModeSelectAllDrawable = global::TelerikSample.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionModeShareDrawable = global::TelerikSample.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionModeSplitBackground = global::TelerikSample.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionModeStyle = global::TelerikSample.Droid.Resource.Attribute.actionModeStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionModeWebSearchDrawable = global::TelerikSample.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionOverflowButtonStyle = global::TelerikSample.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionOverflowMenuStyle = global::TelerikSample.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionProviderClass = global::TelerikSample.Droid.Resource.Attribute.actionProviderClass;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.actionViewClass = global::TelerikSample.Droid.Resource.Attribute.actionViewClass;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.activityChooserViewStyle = global::TelerikSample.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::TelerikSample.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.alertDialogCenterButtons = global::TelerikSample.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.alertDialogStyle = global::TelerikSample.Droid.Resource.Attribute.alertDialogStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.alertDialogTheme = global::TelerikSample.Droid.Resource.Attribute.alertDialogTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.autoCompleteTextViewStyle = global::TelerikSample.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.background = global::TelerikSample.Droid.Resource.Attribute.background;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.backgroundSplit = global::TelerikSample.Droid.Resource.Attribute.backgroundSplit;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.backgroundStacked = global::TelerikSample.Droid.Resource.Attribute.backgroundStacked;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.backgroundTint = global::TelerikSample.Droid.Resource.Attribute.backgroundTint;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.backgroundTintMode = global::TelerikSample.Droid.Resource.Attribute.backgroundTintMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.barSize = global::TelerikSample.Droid.Resource.Attribute.barSize;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.borderlessButtonStyle = global::TelerikSample.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.buttonBarButtonStyle = global::TelerikSample.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::TelerikSample.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::TelerikSample.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::TelerikSample.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.buttonBarStyle = global::TelerikSample.Droid.Resource.Attribute.buttonBarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.buttonPanelSideLayout = global::TelerikSample.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.buttonStyle = global::TelerikSample.Droid.Resource.Attribute.buttonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.buttonStyleSmall = global::TelerikSample.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.calendarBackground = global::TelerikSample.Droid.Resource.Attribute.calendarBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.calendarStyle = global::TelerikSample.Droid.Resource.Attribute.calendarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.checkboxStyle = global::TelerikSample.Droid.Resource.Attribute.checkboxStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.checkedTextViewStyle = global::TelerikSample.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.closeIcon = global::TelerikSample.Droid.Resource.Attribute.closeIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.closeItemLayout = global::TelerikSample.Droid.Resource.Attribute.closeItemLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.collapseContentDescription = global::TelerikSample.Droid.Resource.Attribute.collapseContentDescription;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.collapseIcon = global::TelerikSample.Droid.Resource.Attribute.collapseIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.color = global::TelerikSample.Droid.Resource.Attribute.color;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.colorAccent = global::TelerikSample.Droid.Resource.Attribute.colorAccent;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.colorButtonNormal = global::TelerikSample.Droid.Resource.Attribute.colorButtonNormal;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.colorControlActivated = global::TelerikSample.Droid.Resource.Attribute.colorControlActivated;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.colorControlHighlight = global::TelerikSample.Droid.Resource.Attribute.colorControlHighlight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.colorControlNormal = global::TelerikSample.Droid.Resource.Attribute.colorControlNormal;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.colorPrimary = global::TelerikSample.Droid.Resource.Attribute.colorPrimary;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.colorPrimaryDark = global::TelerikSample.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.colorSwitchThumbNormal = global::TelerikSample.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.commitIcon = global::TelerikSample.Droid.Resource.Attribute.commitIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.contentInsetEnd = global::TelerikSample.Droid.Resource.Attribute.contentInsetEnd;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.contentInsetLeft = global::TelerikSample.Droid.Resource.Attribute.contentInsetLeft;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.contentInsetRight = global::TelerikSample.Droid.Resource.Attribute.contentInsetRight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.contentInsetStart = global::TelerikSample.Droid.Resource.Attribute.contentInsetStart;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.customNavigationLayout = global::TelerikSample.Droid.Resource.Attribute.customNavigationLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.defaultQueryHint = global::TelerikSample.Droid.Resource.Attribute.defaultQueryHint;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.dialogPreferredPadding = global::TelerikSample.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.dialogTheme = global::TelerikSample.Droid.Resource.Attribute.dialogTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.disableChildrenWhenDisabled = global::TelerikSample.Droid.Resource.Attribute.disableChildrenWhenDisabled;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.displayMode = global::TelerikSample.Droid.Resource.Attribute.displayMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.displayOptions = global::TelerikSample.Droid.Resource.Attribute.displayOptions;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.divider = global::TelerikSample.Droid.Resource.Attribute.divider;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.dividerHorizontal = global::TelerikSample.Droid.Resource.Attribute.dividerHorizontal;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.dividerPadding = global::TelerikSample.Droid.Resource.Attribute.dividerPadding;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.dividerVertical = global::TelerikSample.Droid.Resource.Attribute.dividerVertical;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.drawableSize = global::TelerikSample.Droid.Resource.Attribute.drawableSize;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.drawerArrowStyle = global::TelerikSample.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.dropDownListViewStyle = global::TelerikSample.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::TelerikSample.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.editTextBackground = global::TelerikSample.Droid.Resource.Attribute.editTextBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.editTextColor = global::TelerikSample.Droid.Resource.Attribute.editTextColor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.editTextStyle = global::TelerikSample.Droid.Resource.Attribute.editTextStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.elevation = global::TelerikSample.Droid.Resource.Attribute.elevation;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::TelerikSample.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.gapBetweenBars = global::TelerikSample.Droid.Resource.Attribute.gapBetweenBars;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.goIcon = global::TelerikSample.Droid.Resource.Attribute.goIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.height = global::TelerikSample.Droid.Resource.Attribute.height;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.hideOnContentScroll = global::TelerikSample.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.homeAsUpIndicator = global::TelerikSample.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.homeLayout = global::TelerikSample.Droid.Resource.Attribute.homeLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.icon = global::TelerikSample.Droid.Resource.Attribute.icon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.iconifiedByDefault = global::TelerikSample.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.indeterminateProgressStyle = global::TelerikSample.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.initialActivityCount = global::TelerikSample.Droid.Resource.Attribute.initialActivityCount;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.isLightTheme = global::TelerikSample.Droid.Resource.Attribute.isLightTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.isYearModeCompact = global::TelerikSample.Droid.Resource.Attribute.isYearModeCompact;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.itemPadding = global::TelerikSample.Droid.Resource.Attribute.itemPadding;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.layout = global::TelerikSample.Droid.Resource.Attribute.layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.layoutManager = global::TelerikSample.Droid.Resource.Attribute.layoutManager;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::TelerikSample.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.listDividerAlertDialog = global::TelerikSample.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.listItemLayout = global::TelerikSample.Droid.Resource.Attribute.listItemLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.listLayout = global::TelerikSample.Droid.Resource.Attribute.listLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.listPopupWindowStyle = global::TelerikSample.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.listPreferredItemHeight = global::TelerikSample.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.listPreferredItemHeightLarge = global::TelerikSample.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.listPreferredItemHeightSmall = global::TelerikSample.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::TelerikSample.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.listPreferredItemPaddingRight = global::TelerikSample.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.logo = global::TelerikSample.Droid.Resource.Attribute.logo;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.maxButtonHeight = global::TelerikSample.Droid.Resource.Attribute.maxButtonHeight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.measureWithLargestChild = global::TelerikSample.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.middleBarArrowSize = global::TelerikSample.Droid.Resource.Attribute.middleBarArrowSize;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.multiChoiceItemLayout = global::TelerikSample.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.navigationContentDescription = global::TelerikSample.Droid.Resource.Attribute.navigationContentDescription;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.navigationIcon = global::TelerikSample.Droid.Resource.Attribute.navigationIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.navigationMode = global::TelerikSample.Droid.Resource.Attribute.navigationMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.overlapAnchor = global::TelerikSample.Droid.Resource.Attribute.overlapAnchor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.paddingEnd = global::TelerikSample.Droid.Resource.Attribute.paddingEnd;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.paddingStart = global::TelerikSample.Droid.Resource.Attribute.paddingStart;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.panelBackground = global::TelerikSample.Droid.Resource.Attribute.panelBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.panelMenuListTheme = global::TelerikSample.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.panelMenuListWidth = global::TelerikSample.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.popupMenuStyle = global::TelerikSample.Droid.Resource.Attribute.popupMenuStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.popupPromptView = global::TelerikSample.Droid.Resource.Attribute.popupPromptView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.popupTheme = global::TelerikSample.Droid.Resource.Attribute.popupTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.popupWindowStyle = global::TelerikSample.Droid.Resource.Attribute.popupWindowStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.preserveIconSpacing = global::TelerikSample.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.progressBarPadding = global::TelerikSample.Droid.Resource.Attribute.progressBarPadding;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.progressBarStyle = global::TelerikSample.Droid.Resource.Attribute.progressBarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.prompt = global::TelerikSample.Droid.Resource.Attribute.prompt;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.queryBackground = global::TelerikSample.Droid.Resource.Attribute.queryBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.queryHint = global::TelerikSample.Droid.Resource.Attribute.queryHint;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.radioButtonStyle = global::TelerikSample.Droid.Resource.Attribute.radioButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.ratingBarStyle = global::TelerikSample.Droid.Resource.Attribute.ratingBarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.reverseLayout = global::TelerikSample.Droid.Resource.Attribute.reverseLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.searchHintIcon = global::TelerikSample.Droid.Resource.Attribute.searchHintIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.searchIcon = global::TelerikSample.Droid.Resource.Attribute.searchIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.searchViewStyle = global::TelerikSample.Droid.Resource.Attribute.searchViewStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.selectableItemBackground = global::TelerikSample.Droid.Resource.Attribute.selectableItemBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::TelerikSample.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.selectionMode = global::TelerikSample.Droid.Resource.Attribute.selectionMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.showAsAction = global::TelerikSample.Droid.Resource.Attribute.showAsAction;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.showCellDecorations = global::TelerikSample.Droid.Resource.Attribute.showCellDecorations;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.showDayNames = global::TelerikSample.Droid.Resource.Attribute.showDayNames;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.showDividers = global::TelerikSample.Droid.Resource.Attribute.showDividers;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.showGridLines = global::TelerikSample.Droid.Resource.Attribute.showGridLines;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.showText = global::TelerikSample.Droid.Resource.Attribute.showText;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.showTitle = global::TelerikSample.Droid.Resource.Attribute.showTitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.singleChoiceItemLayout = global::TelerikSample.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.spanCount = global::TelerikSample.Droid.Resource.Attribute.spanCount;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.spinBars = global::TelerikSample.Droid.Resource.Attribute.spinBars;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.spinnerDropDownItemStyle = global::TelerikSample.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.spinnerMode = global::TelerikSample.Droid.Resource.Attribute.spinnerMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.spinnerStyle = global::TelerikSample.Droid.Resource.Attribute.spinnerStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.splitTrack = global::TelerikSample.Droid.Resource.Attribute.splitTrack;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.stackFromEnd = global::TelerikSample.Droid.Resource.Attribute.stackFromEnd;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.state_above_anchor = global::TelerikSample.Droid.Resource.Attribute.state_above_anchor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.state_calendar_cell_today = global::TelerikSample.Droid.Resource.Attribute.state_calendar_cell_today;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.submitBackground = global::TelerikSample.Droid.Resource.Attribute.submitBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.subtitle = global::TelerikSample.Droid.Resource.Attribute.subtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.subtitleTextAppearance = global::TelerikSample.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.subtitleTextStyle = global::TelerikSample.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.suggestionRowLayout = global::TelerikSample.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.switchMinWidth = global::TelerikSample.Droid.Resource.Attribute.switchMinWidth;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.switchPadding = global::TelerikSample.Droid.Resource.Attribute.switchPadding;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.switchStyle = global::TelerikSample.Droid.Resource.Attribute.switchStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.switchTextAppearance = global::TelerikSample.Droid.Resource.Attribute.switchTextAppearance;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.textAllCaps = global::TelerikSample.Droid.Resource.Attribute.textAllCaps;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::TelerikSample.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.textAppearanceListItem = global::TelerikSample.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.textAppearanceListItemSmall = global::TelerikSample.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::TelerikSample.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::TelerikSample.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::TelerikSample.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.textColorAlertDialogListItem = global::TelerikSample.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.textColorSearchUrl = global::TelerikSample.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.theme = global::TelerikSample.Droid.Resource.Attribute.theme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.thickness = global::TelerikSample.Droid.Resource.Attribute.thickness;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.thumbTextPadding = global::TelerikSample.Droid.Resource.Attribute.thumbTextPadding;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.title = global::TelerikSample.Droid.Resource.Attribute.title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.titleMarginBottom = global::TelerikSample.Droid.Resource.Attribute.titleMarginBottom;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.titleMarginEnd = global::TelerikSample.Droid.Resource.Attribute.titleMarginEnd;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.titleMarginStart = global::TelerikSample.Droid.Resource.Attribute.titleMarginStart;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.titleMarginTop = global::TelerikSample.Droid.Resource.Attribute.titleMarginTop;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.titleMargins = global::TelerikSample.Droid.Resource.Attribute.titleMargins;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.titleTextAppearance = global::TelerikSample.Droid.Resource.Attribute.titleTextAppearance;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.titleTextStyle = global::TelerikSample.Droid.Resource.Attribute.titleTextStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::TelerikSample.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.toolbarStyle = global::TelerikSample.Droid.Resource.Attribute.toolbarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.topBottomBarArrowSize = global::TelerikSample.Droid.Resource.Attribute.topBottomBarArrowSize;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.track = global::TelerikSample.Droid.Resource.Attribute.track;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.voiceIcon = global::TelerikSample.Droid.Resource.Attribute.voiceIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.weekNumberDisplayMode = global::TelerikSample.Droid.Resource.Attribute.weekNumberDisplayMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.windowActionBar = global::TelerikSample.Droid.Resource.Attribute.windowActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.windowActionBarOverlay = global::TelerikSample.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.windowActionModeOverlay = global::TelerikSample.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.windowFixedHeightMajor = global::TelerikSample.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.windowFixedHeightMinor = global::TelerikSample.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.windowFixedWidthMajor = global::TelerikSample.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.windowFixedWidthMinor = global::TelerikSample.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.windowMinWidthMajor = global::TelerikSample.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.windowMinWidthMinor = global::TelerikSample.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Attribute.windowNoTitle = global::TelerikSample.Droid.Resource.Attribute.windowNoTitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::TelerikSample.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::TelerikSample.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::TelerikSample.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::TelerikSample.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::TelerikSample.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::TelerikSample.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::TelerikSample.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::TelerikSample.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::TelerikSample.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.abc_input_method_navigation_guard = global::TelerikSample.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::TelerikSample.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::TelerikSample.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.abc_primary_text_material_dark = global::TelerikSample.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.abc_primary_text_material_light = global::TelerikSample.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.abc_search_url_text = global::TelerikSample.Droid.Resource.Color.abc_search_url_text;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.abc_search_url_text_normal = global::TelerikSample.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.abc_search_url_text_pressed = global::TelerikSample.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.abc_search_url_text_selected = global::TelerikSample.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.abc_secondary_text_material_dark = global::TelerikSample.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.abc_secondary_text_material_light = global::TelerikSample.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.accent_material_dark = global::TelerikSample.Droid.Resource.Color.accent_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.accent_material_light = global::TelerikSample.Droid.Resource.Color.accent_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.background_floating_material_dark = global::TelerikSample.Droid.Resource.Color.background_floating_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.background_floating_material_light = global::TelerikSample.Droid.Resource.Color.background_floating_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.background_material_dark = global::TelerikSample.Droid.Resource.Color.background_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.background_material_light = global::TelerikSample.Droid.Resource.Color.background_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.black = global::TelerikSample.Droid.Resource.Color.black;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.bright_foreground_disabled_material_dark = global::TelerikSample.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.bright_foreground_disabled_material_light = global::TelerikSample.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.bright_foreground_inverse_material_dark = global::TelerikSample.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.bright_foreground_inverse_material_light = global::TelerikSample.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.bright_foreground_material_dark = global::TelerikSample.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.bright_foreground_material_light = global::TelerikSample.Droid.Resource.Color.bright_foreground_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.button_material_dark = global::TelerikSample.Droid.Resource.Color.button_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.button_material_light = global::TelerikSample.Droid.Resource.Color.button_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.data_form_list_selected = global::TelerikSample.Droid.Resource.Color.data_form_list_selected;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.dim_foreground_disabled_material_dark = global::TelerikSample.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.dim_foreground_disabled_material_light = global::TelerikSample.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.dim_foreground_material_dark = global::TelerikSample.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.dim_foreground_material_light = global::TelerikSample.Droid.Resource.Color.dim_foreground_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.groupHeaderTextColor = global::TelerikSample.Droid.Resource.Color.groupHeaderTextColor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.highlighted_text_material_dark = global::TelerikSample.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.highlighted_text_material_light = global::TelerikSample.Droid.Resource.Color.highlighted_text_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.hint_foreground_material_dark = global::TelerikSample.Droid.Resource.Color.hint_foreground_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.hint_foreground_material_light = global::TelerikSample.Droid.Resource.Color.hint_foreground_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.link_text_material_dark = global::TelerikSample.Droid.Resource.Color.link_text_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.link_text_material_light = global::TelerikSample.Droid.Resource.Color.link_text_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.listAccentColor = global::TelerikSample.Droid.Resource.Color.listAccentColor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.listItemTextColor = global::TelerikSample.Droid.Resource.Color.listItemTextColor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.material_blue_grey_800 = global::TelerikSample.Droid.Resource.Color.material_blue_grey_800;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.material_blue_grey_900 = global::TelerikSample.Droid.Resource.Color.material_blue_grey_900;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.material_blue_grey_950 = global::TelerikSample.Droid.Resource.Color.material_blue_grey_950;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.material_deep_teal_200 = global::TelerikSample.Droid.Resource.Color.material_deep_teal_200;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.material_deep_teal_500 = global::TelerikSample.Droid.Resource.Color.material_deep_teal_500;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.pressedColor = global::TelerikSample.Droid.Resource.Color.pressedColor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.primary_dark_material_dark = global::TelerikSample.Droid.Resource.Color.primary_dark_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.primary_dark_material_light = global::TelerikSample.Droid.Resource.Color.primary_dark_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.primary_material_dark = global::TelerikSample.Droid.Resource.Color.primary_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.primary_material_light = global::TelerikSample.Droid.Resource.Color.primary_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.primary_text_default_material_dark = global::TelerikSample.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.primary_text_default_material_light = global::TelerikSample.Droid.Resource.Color.primary_text_default_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.primary_text_disabled_material_dark = global::TelerikSample.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.primary_text_disabled_material_light = global::TelerikSample.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.ripple_material_dark = global::TelerikSample.Droid.Resource.Color.ripple_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.ripple_material_light = global::TelerikSample.Droid.Resource.Color.ripple_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.secondary_text_default_material_dark = global::TelerikSample.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.secondary_text_default_material_light = global::TelerikSample.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.secondary_text_disabled_material_dark = global::TelerikSample.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.secondary_text_disabled_material_light = global::TelerikSample.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.selectionColor = global::TelerikSample.Droid.Resource.Color.selectionColor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.shadeColor = global::TelerikSample.Droid.Resource.Color.shadeColor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.shadeColorCenter = global::TelerikSample.Droid.Resource.Color.shadeColorCenter;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.switch_thumb_disabled_material_dark = global::TelerikSample.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.switch_thumb_disabled_material_light = global::TelerikSample.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.switch_thumb_material_dark = global::TelerikSample.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.switch_thumb_material_light = global::TelerikSample.Droid.Resource.Color.switch_thumb_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.switch_thumb_normal_material_dark = global::TelerikSample.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.switch_thumb_normal_material_light = global::TelerikSample.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.transparent = global::TelerikSample.Droid.Resource.Color.transparent;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Color.white = global::TelerikSample.Droid.Resource.Color.white;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::TelerikSample.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_bar_default_height_material = global::TelerikSample.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_bar_default_padding_material = global::TelerikSample.Droid.Resource.Dimension.abc_action_bar_default_padding_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::TelerikSample.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_bar_navigation_padding_start_material = global::TelerikSample.Droid.Resource.Dimension.abc_action_bar_navigation_padding_start_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::TelerikSample.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::TelerikSample.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::TelerikSample.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::TelerikSample.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::TelerikSample.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::TelerikSample.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::TelerikSample.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_button_min_height_material = global::TelerikSample.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_button_min_width_material = global::TelerikSample.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::TelerikSample.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::TelerikSample.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::TelerikSample.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_button_inset_vertical_material = global::TelerikSample.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::TelerikSample.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_button_padding_vertical_material = global::TelerikSample.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_config_prefDialogWidth = global::TelerikSample.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_control_corner_material = global::TelerikSample.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_control_inset_material = global::TelerikSample.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_control_padding_material = global::TelerikSample.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::TelerikSample.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_dialog_min_width_major = global::TelerikSample.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_dialog_min_width_minor = global::TelerikSample.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_dialog_padding_material = global::TelerikSample.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_dialog_padding_top_material = global::TelerikSample.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::TelerikSample.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::TelerikSample.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::TelerikSample.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::TelerikSample.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::TelerikSample.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::TelerikSample.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::TelerikSample.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::TelerikSample.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_floating_window_z = global::TelerikSample.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::TelerikSample.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_panel_menu_list_width = global::TelerikSample.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_search_view_preferred_width = global::TelerikSample.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_search_view_text_min_width = global::TelerikSample.Droid.Resource.Dimension.abc_search_view_text_min_width;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_switch_padding = global::TelerikSample.Droid.Resource.Dimension.abc_switch_padding;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_body_1_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_body_2_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_button_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_caption_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_display_1_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_display_2_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_display_3_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_display_4_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_headline_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_large_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_medium_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_menu_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_small_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_subhead_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_title_material = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::TelerikSample.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.card_deck_translation = global::TelerikSample.Droid.Resource.Dimension.card_deck_translation;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.date_text_size_year_mode = global::TelerikSample.Droid.Resource.Dimension.date_text_size_year_mode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.dialog_fixed_height_major = global::TelerikSample.Droid.Resource.Dimension.dialog_fixed_height_major;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.dialog_fixed_height_minor = global::TelerikSample.Droid.Resource.Dimension.dialog_fixed_height_minor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.dialog_fixed_width_major = global::TelerikSample.Droid.Resource.Dimension.dialog_fixed_width_major;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.dialog_fixed_width_minor = global::TelerikSample.Droid.Resource.Dimension.dialog_fixed_width_minor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.disabled_alpha_material_dark = global::TelerikSample.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.disabled_alpha_material_light = global::TelerikSample.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::TelerikSample.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.notification_large_icon_height = global::TelerikSample.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.notification_large_icon_width = global::TelerikSample.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Dimension.notification_subtext_size = global::TelerikSample.Droid.Resource.Dimension.notification_subtext_size;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_btn_borderless_material = global::TelerikSample.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_btn_check_material = global::TelerikSample.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::TelerikSample.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::TelerikSample.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::TelerikSample.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_btn_radio_material = global::TelerikSample.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::TelerikSample.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::TelerikSample.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::TelerikSample.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::TelerikSample.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_cab_background_internal_bg = global::TelerikSample.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_cab_background_top_material = global::TelerikSample.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_dialog_material_background_dark = global::TelerikSample.Droid.Resource.Drawable.abc_dialog_material_background_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_dialog_material_background_light = global::TelerikSample.Droid.Resource.Drawable.abc_dialog_material_background_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_edit_text_material = global::TelerikSample.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_item_background_holo_dark = global::TelerikSample.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_item_background_holo_light = global::TelerikSample.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_list_focused_holo = global::TelerikSample.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_list_longpressed_holo = global::TelerikSample.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::TelerikSample.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_list_pressed_holo_light = global::TelerikSample.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::TelerikSample.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::TelerikSample.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::TelerikSample.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::TelerikSample.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_list_selector_holo_dark = global::TelerikSample.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_list_selector_holo_light = global::TelerikSample.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::TelerikSample.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::TelerikSample.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_ratingbar_full_material = global::TelerikSample.Droid.Resource.Drawable.abc_ratingbar_full_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::TelerikSample.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_switch_thumb_material = global::TelerikSample.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_tab_indicator_material = global::TelerikSample.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_text_cursor_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_text_cursor_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::TelerikSample.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.abc_textfield_search_material = global::TelerikSample.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.data_form_invalid_background = global::TelerikSample.Droid.Resource.Drawable.data_form_invalid_background;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.data_form_invalid_icon = global::TelerikSample.Droid.Resource.Drawable.data_form_invalid_icon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.data_form_list_item_states = global::TelerikSample.Droid.Resource.Drawable.data_form_list_item_states;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.data_form_segment_checked = global::TelerikSample.Droid.Resource.Drawable.data_form_segment_checked;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.data_form_segment_item = global::TelerikSample.Droid.Resource.Drawable.data_form_segment_item;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.data_form_segment_unchecked = global::TelerikSample.Droid.Resource.Drawable.data_form_segment_unchecked;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.data_form_valid_background = global::TelerikSample.Droid.Resource.Drawable.data_form_valid_background;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.data_form_valid_icon = global::TelerikSample.Droid.Resource.Drawable.data_form_valid_icon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.dataform_number_picker_background = global::TelerikSample.Droid.Resource.Drawable.dataform_number_picker_background;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.events_popup_bg = global::TelerikSample.Droid.Resource.Drawable.events_popup_bg;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.gingerbread_background = global::TelerikSample.Droid.Resource.Drawable.gingerbread_background;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.notification_template_icon_bg = global::TelerikSample.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.pressable_item_background = global::TelerikSample.Droid.Resource.Drawable.pressable_item_background;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.selectable_item_background = global::TelerikSample.Droid.Resource.Drawable.selectable_item_background;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.shade_bottom = global::TelerikSample.Droid.Resource.Drawable.shade_bottom;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.shade_corner = global::TelerikSample.Droid.Resource.Drawable.shade_corner;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Drawable.shade_right = global::TelerikSample.Droid.Resource.Drawable.shade_right;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.Block = global::TelerikSample.Droid.Resource.Id.Block;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.Inline = global::TelerikSample.Droid.Resource.Id.Inline;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.Month = global::TelerikSample.Droid.Resource.Id.Month;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.Multiple = global::TelerikSample.Droid.Resource.Id.Multiple;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.None = global::TelerikSample.Droid.Resource.Id.None;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.Range = global::TelerikSample.Droid.Resource.Id.Range;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.Single = global::TelerikSample.Droid.Resource.Id.Single;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.Week = global::TelerikSample.Droid.Resource.Id.Week;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.Year = global::TelerikSample.Droid.Resource.Id.Year;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action0 = global::TelerikSample.Droid.Resource.Id.action0;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_bar = global::TelerikSample.Droid.Resource.Id.action_bar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_bar_activity_content = global::TelerikSample.Droid.Resource.Id.action_bar_activity_content;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_bar_container = global::TelerikSample.Droid.Resource.Id.action_bar_container;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_bar_root = global::TelerikSample.Droid.Resource.Id.action_bar_root;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_bar_spinner = global::TelerikSample.Droid.Resource.Id.action_bar_spinner;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_bar_subtitle = global::TelerikSample.Droid.Resource.Id.action_bar_subtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_bar_title = global::TelerikSample.Droid.Resource.Id.action_bar_title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_context_bar = global::TelerikSample.Droid.Resource.Id.action_context_bar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_divider = global::TelerikSample.Droid.Resource.Id.action_divider;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_menu_divider = global::TelerikSample.Droid.Resource.Id.action_menu_divider;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_menu_presenter = global::TelerikSample.Droid.Resource.Id.action_menu_presenter;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_mode_bar = global::TelerikSample.Droid.Resource.Id.action_mode_bar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_mode_bar_stub = global::TelerikSample.Droid.Resource.Id.action_mode_bar_stub;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.action_mode_close_button = global::TelerikSample.Droid.Resource.Id.action_mode_close_button;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.activity_chooser_view_content = global::TelerikSample.Droid.Resource.Id.activity_chooser_view_content;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.alertTitle = global::TelerikSample.Droid.Resource.Id.alertTitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.always = global::TelerikSample.Droid.Resource.Id.always;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.beginning = global::TelerikSample.Droid.Resource.Id.beginning;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.buttonPanel = global::TelerikSample.Droid.Resource.Id.buttonPanel;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.cancel_action = global::TelerikSample.Droid.Resource.Id.cancel_action;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.checkbox = global::TelerikSample.Droid.Resource.Id.checkbox;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.chronometer = global::TelerikSample.Droid.Resource.Id.chronometer;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.collapseActionView = global::TelerikSample.Droid.Resource.Id.collapseActionView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.contentPanel = global::TelerikSample.Droid.Resource.Id.contentPanel;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.custom = global::TelerikSample.Droid.Resource.Id.custom;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.customPanel = global::TelerikSample.Droid.Resource.Id.customPanel;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_autocomplete_editor = global::TelerikSample.Droid.Resource.Id.data_form_autocomplete_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_checkbox_editor = global::TelerikSample.Droid.Resource.Id.data_form_checkbox_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_date_editor = global::TelerikSample.Droid.Resource.Id.data_form_date_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_decimal_editor = global::TelerikSample.Droid.Resource.Id.data_form_decimal_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_editor_container = global::TelerikSample.Droid.Resource.Id.data_form_editor_container;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_editor_group_container = global::TelerikSample.Droid.Resource.Id.data_form_editor_group_container;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_expandable_group_expand_button = global::TelerikSample.Droid.Resource.Id.data_form_expandable_group_expand_button;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_group_header = global::TelerikSample.Droid.Resource.Id.data_form_group_header;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_header_container = global::TelerikSample.Droid.Resource.Id.data_form_header_container;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_integer_editor = global::TelerikSample.Droid.Resource.Id.data_form_integer_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_list_editor = global::TelerikSample.Droid.Resource.Id.data_form_list_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_number_picker_editor = global::TelerikSample.Droid.Resource.Id.data_form_number_picker_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_radio_group = global::TelerikSample.Droid.Resource.Id.data_form_radio_group;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_root_layout = global::TelerikSample.Droid.Resource.Id.data_form_root_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_seekbar_editor = global::TelerikSample.Droid.Resource.Id.data_form_seekbar_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_spinner_editor = global::TelerikSample.Droid.Resource.Id.data_form_spinner_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_switch_editor = global::TelerikSample.Droid.Resource.Id.data_form_switch_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_text_editor = global::TelerikSample.Droid.Resource.Id.data_form_text_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_text_viewer = global::TelerikSample.Droid.Resource.Id.data_form_text_viewer;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_text_viewer_header = global::TelerikSample.Droid.Resource.Id.data_form_text_viewer_header;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_time_editor = global::TelerikSample.Droid.Resource.Id.data_form_time_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_toggle_editor = global::TelerikSample.Droid.Resource.Id.data_form_toggle_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_validation_container = global::TelerikSample.Droid.Resource.Id.data_form_validation_container;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_validation_icon = global::TelerikSample.Droid.Resource.Id.data_form_validation_icon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.data_form_validation_message_view = global::TelerikSample.Droid.Resource.Id.data_form_validation_message_view;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.decor_content_parent = global::TelerikSample.Droid.Resource.Id.decor_content_parent;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.default_activity_button = global::TelerikSample.Droid.Resource.Id.default_activity_button;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.dialog = global::TelerikSample.Droid.Resource.Id.dialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.disableHome = global::TelerikSample.Droid.Resource.Id.disableHome;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.dropdown = global::TelerikSample.Droid.Resource.Id.dropdown;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.edit_query = global::TelerikSample.Droid.Resource.Id.edit_query;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.end = global::TelerikSample.Droid.Resource.Id.end;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.end_padder = global::TelerikSample.Droid.Resource.Id.end_padder;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.expand_activities_button = global::TelerikSample.Droid.Resource.Id.expand_activities_button;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.expanded_menu = global::TelerikSample.Droid.Resource.Id.expanded_menu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.groupHeaderText = global::TelerikSample.Droid.Resource.Id.groupHeaderText;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.home = global::TelerikSample.Droid.Resource.Id.home;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.homeAsUp = global::TelerikSample.Droid.Resource.Id.homeAsUp;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.icon = global::TelerikSample.Droid.Resource.Id.icon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.ifRoom = global::TelerikSample.Droid.Resource.Id.ifRoom;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.image = global::TelerikSample.Droid.Resource.Id.image;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.info = global::TelerikSample.Droid.Resource.Id.info;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.inline_event_end = global::TelerikSample.Droid.Resource.Id.inline_event_end;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.inline_event_start = global::TelerikSample.Droid.Resource.Id.inline_event_start;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.inline_event_title = global::TelerikSample.Droid.Resource.Id.inline_event_title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.item_touch_helper_previous_elevation = global::TelerikSample.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.line1 = global::TelerikSample.Droid.Resource.Id.line1;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.line3 = global::TelerikSample.Droid.Resource.Id.line3;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.listMode = global::TelerikSample.Droid.Resource.Id.listMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.list_item = global::TelerikSample.Droid.Resource.Id.list_item;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.media_actions = global::TelerikSample.Droid.Resource.Id.media_actions;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.middle = global::TelerikSample.Droid.Resource.Id.middle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.multiply = global::TelerikSample.Droid.Resource.Id.multiply;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.never = global::TelerikSample.Droid.Resource.Id.never;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.none = global::TelerikSample.Droid.Resource.Id.none;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.normal = global::TelerikSample.Droid.Resource.Id.normal;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.number_picker_minus = global::TelerikSample.Droid.Resource.Id.number_picker_minus;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.number_picker_plus = global::TelerikSample.Droid.Resource.Id.number_picker_plus;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.number_picker_view = global::TelerikSample.Droid.Resource.Id.number_picker_view;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.parentPanel = global::TelerikSample.Droid.Resource.Id.parentPanel;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.popup_event_time = global::TelerikSample.Droid.Resource.Id.popup_event_time;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.popup_event_title = global::TelerikSample.Droid.Resource.Id.popup_event_title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.progress_circular = global::TelerikSample.Droid.Resource.Id.progress_circular;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.progress_horizontal = global::TelerikSample.Droid.Resource.Id.progress_horizontal;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.radio = global::TelerikSample.Droid.Resource.Id.radio;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.screen = global::TelerikSample.Droid.Resource.Id.screen;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.scrollView = global::TelerikSample.Droid.Resource.Id.scrollView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.search_badge = global::TelerikSample.Droid.Resource.Id.search_badge;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.search_bar = global::TelerikSample.Droid.Resource.Id.search_bar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.search_button = global::TelerikSample.Droid.Resource.Id.search_button;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.search_close_btn = global::TelerikSample.Droid.Resource.Id.search_close_btn;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.search_edit_frame = global::TelerikSample.Droid.Resource.Id.search_edit_frame;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.search_go_btn = global::TelerikSample.Droid.Resource.Id.search_go_btn;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.search_mag_icon = global::TelerikSample.Droid.Resource.Id.search_mag_icon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.search_plate = global::TelerikSample.Droid.Resource.Id.search_plate;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.search_src_text = global::TelerikSample.Droid.Resource.Id.search_src_text;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.search_voice_btn = global::TelerikSample.Droid.Resource.Id.search_voice_btn;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.select_dialog_listview = global::TelerikSample.Droid.Resource.Id.select_dialog_listview;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.shortcut = global::TelerikSample.Droid.Resource.Id.shortcut;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.showCustom = global::TelerikSample.Droid.Resource.Id.showCustom;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.showHome = global::TelerikSample.Droid.Resource.Id.showHome;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.showTitle = global::TelerikSample.Droid.Resource.Id.showTitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.split_action_bar = global::TelerikSample.Droid.Resource.Id.split_action_bar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.src_atop = global::TelerikSample.Droid.Resource.Id.src_atop;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.src_in = global::TelerikSample.Droid.Resource.Id.src_in;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.src_over = global::TelerikSample.Droid.Resource.Id.src_over;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.status_bar_latest_event_content = global::TelerikSample.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.submit_area = global::TelerikSample.Droid.Resource.Id.submit_area;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.tabMode = global::TelerikSample.Droid.Resource.Id.tabMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.text = global::TelerikSample.Droid.Resource.Id.text;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.text1 = global::TelerikSample.Droid.Resource.Id.text1;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.text2 = global::TelerikSample.Droid.Resource.Id.text2;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.textSpacerNoButtons = global::TelerikSample.Droid.Resource.Id.textSpacerNoButtons;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.time = global::TelerikSample.Droid.Resource.Id.time;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.title = global::TelerikSample.Droid.Resource.Id.title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.title_template = global::TelerikSample.Droid.Resource.Id.title_template;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.topPanel = global::TelerikSample.Droid.Resource.Id.topPanel;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.up = global::TelerikSample.Droid.Resource.Id.up;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.useLogo = global::TelerikSample.Droid.Resource.Id.useLogo;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.withText = global::TelerikSample.Droid.Resource.Id.withText;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Id.wrap_content = global::TelerikSample.Droid.Resource.Id.wrap_content;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Integer.abc_config_activityDefaultDur = global::TelerikSample.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Integer.abc_config_activityShortDur = global::TelerikSample.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Integer.abc_max_action_buttons = global::TelerikSample.Droid.Resource.Integer.abc_max_action_buttons;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Integer.cancel_button_image_alpha = global::TelerikSample.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Integer.status_bar_notification_info_maxnum = global::TelerikSample.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_action_bar_title_item = global::TelerikSample.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_action_bar_up_container = global::TelerikSample.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::TelerikSample.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_action_menu_item_layout = global::TelerikSample.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_action_menu_layout = global::TelerikSample.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_action_mode_bar = global::TelerikSample.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_action_mode_close_item_material = global::TelerikSample.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_activity_chooser_view = global::TelerikSample.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::TelerikSample.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_alert_dialog_material = global::TelerikSample.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_dialog_title_material = global::TelerikSample.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_expanded_menu_layout = global::TelerikSample.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_list_menu_item_checkbox = global::TelerikSample.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_list_menu_item_icon = global::TelerikSample.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_list_menu_item_layout = global::TelerikSample.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_list_menu_item_radio = global::TelerikSample.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_popup_menu_item_layout = global::TelerikSample.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_screen_content_include = global::TelerikSample.Droid.Resource.Layout.abc_screen_content_include;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_screen_simple = global::TelerikSample.Droid.Resource.Layout.abc_screen_simple;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::TelerikSample.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_screen_toolbar = global::TelerikSample.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::TelerikSample.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_search_view = global::TelerikSample.Droid.Resource.Layout.abc_search_view;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_select_dialog_material = global::TelerikSample.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.abc_simple_dropdown_hint = global::TelerikSample.Droid.Resource.Layout.abc_simple_dropdown_hint;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_autocomplete_editor = global::TelerikSample.Droid.Resource.Layout.data_form_autocomplete_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_checkbox_editor = global::TelerikSample.Droid.Resource.Layout.data_form_checkbox_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_date_editor = global::TelerikSample.Droid.Resource.Layout.data_form_date_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_decimal_editor = global::TelerikSample.Droid.Resource.Layout.data_form_decimal_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_default_group_layout = global::TelerikSample.Droid.Resource.Layout.data_form_default_group_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_editor_header_layout_1 = global::TelerikSample.Droid.Resource.Layout.data_form_editor_header_layout_1;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_editor_layout_1 = global::TelerikSample.Droid.Resource.Layout.data_form_editor_layout_1;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_editor_layout_2 = global::TelerikSample.Droid.Resource.Layout.data_form_editor_layout_2;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_editor_validation_layout_1 = global::TelerikSample.Droid.Resource.Layout.data_form_editor_validation_layout_1;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_expandable_group_layout = global::TelerikSample.Droid.Resource.Layout.data_form_expandable_group_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_group_layout = global::TelerikSample.Droid.Resource.Layout.data_form_group_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_integer_editor = global::TelerikSample.Droid.Resource.Layout.data_form_integer_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_linear_layout = global::TelerikSample.Droid.Resource.Layout.data_form_linear_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_list_editor = global::TelerikSample.Droid.Resource.Layout.data_form_list_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_list_editor_item = global::TelerikSample.Droid.Resource.Layout.data_form_list_editor_item;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_number_picker = global::TelerikSample.Droid.Resource.Layout.data_form_number_picker;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_radio_group_editor = global::TelerikSample.Droid.Resource.Layout.data_form_radio_group_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_root_layout = global::TelerikSample.Droid.Resource.Layout.data_form_root_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_seek_bar_editor = global::TelerikSample.Droid.Resource.Layout.data_form_seek_bar_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_segmented_editor = global::TelerikSample.Droid.Resource.Layout.data_form_segmented_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_spinner_editor = global::TelerikSample.Droid.Resource.Layout.data_form_spinner_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_switch_editor = global::TelerikSample.Droid.Resource.Layout.data_form_switch_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_text_editor = global::TelerikSample.Droid.Resource.Layout.data_form_text_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_text_viewer = global::TelerikSample.Droid.Resource.Layout.data_form_text_viewer;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_time_editor = global::TelerikSample.Droid.Resource.Layout.data_form_time_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.data_form_toggle_button_editor = global::TelerikSample.Droid.Resource.Layout.data_form_toggle_button_editor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.inline_event = global::TelerikSample.Droid.Resource.Layout.inline_event;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.notification_media_action = global::TelerikSample.Droid.Resource.Layout.notification_media_action;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.notification_media_cancel_action = global::TelerikSample.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.notification_template_big_media = global::TelerikSample.Droid.Resource.Layout.notification_template_big_media;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.notification_template_big_media_narrow = global::TelerikSample.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.notification_template_lines = global::TelerikSample.Droid.Resource.Layout.notification_template_lines;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.notification_template_media = global::TelerikSample.Droid.Resource.Layout.notification_template_media;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.notification_template_part_chronometer = global::TelerikSample.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.notification_template_part_time = global::TelerikSample.Droid.Resource.Layout.notification_template_part_time;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.number_picker = global::TelerikSample.Droid.Resource.Layout.number_picker;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.on_demand_automatic = global::TelerikSample.Droid.Resource.Layout.on_demand_automatic;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.on_demand_manual = global::TelerikSample.Droid.Resource.Layout.on_demand_manual;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.popup_event = global::TelerikSample.Droid.Resource.Layout.popup_event;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.select_dialog_item_material = global::TelerikSample.Droid.Resource.Layout.select_dialog_item_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.select_dialog_multichoice_material = global::TelerikSample.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.select_dialog_singlechoice_material = global::TelerikSample.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.simple_empty_content = global::TelerikSample.Droid.Resource.Layout.simple_empty_content;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.simple_group_header_item = global::TelerikSample.Droid.Resource.Layout.simple_group_header_item;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.simple_list_item = global::TelerikSample.Droid.Resource.Layout.simple_list_item;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::TelerikSample.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Layout.trial_message = global::TelerikSample.Droid.Resource.Layout.trial_message;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.ApplicationName = global::TelerikSample.Droid.Resource.String.ApplicationName;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.Hello = global::TelerikSample.Droid.Resource.String.Hello;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_action_bar_home_description = global::TelerikSample.Droid.Resource.String.abc_action_bar_home_description;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_action_bar_home_description_format = global::TelerikSample.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::TelerikSample.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_action_bar_up_description = global::TelerikSample.Droid.Resource.String.abc_action_bar_up_description;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_action_menu_overflow_description = global::TelerikSample.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_action_mode_done = global::TelerikSample.Droid.Resource.String.abc_action_mode_done;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_activity_chooser_view_see_all = global::TelerikSample.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_activitychooserview_choose_application = global::TelerikSample.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_search_hint = global::TelerikSample.Droid.Resource.String.abc_search_hint;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_searchview_description_clear = global::TelerikSample.Droid.Resource.String.abc_searchview_description_clear;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_searchview_description_query = global::TelerikSample.Droid.Resource.String.abc_searchview_description_query;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_searchview_description_search = global::TelerikSample.Droid.Resource.String.abc_searchview_description_search;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_searchview_description_submit = global::TelerikSample.Droid.Resource.String.abc_searchview_description_submit;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_searchview_description_voice = global::TelerikSample.Droid.Resource.String.abc_searchview_description_voice;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_shareactionprovider_share_with = global::TelerikSample.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_shareactionprovider_share_with_application = global::TelerikSample.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.abc_toolbar_collapse_description = global::TelerikSample.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.list_view_default_empty_content = global::TelerikSample.Droid.Resource.String.list_view_default_empty_content;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.on_demand_manual_button_busy = global::TelerikSample.Droid.Resource.String.on_demand_manual_button_busy;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.on_demand_manual_button_idle = global::TelerikSample.Droid.Resource.String.on_demand_manual_button_idle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.status_bar_notification_info_overflow = global::TelerikSample.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.trial_message = global::TelerikSample.Droid.Resource.String.trial_message;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.String.trial_message_caption = global::TelerikSample.Droid.Resource.String.trial_message_caption;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.AlertDialog_AppCompat = global::TelerikSample.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.AlertDialog_AppCompat_Light = global::TelerikSample.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Animation_AppCompat_Dialog = global::TelerikSample.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::TelerikSample.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_AlertDialog_AppCompat = global::TelerikSample.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::TelerikSample.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::TelerikSample.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::TelerikSample.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::TelerikSample.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::TelerikSample.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::TelerikSample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::TelerikSample.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::TelerikSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::TelerikSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::TelerikSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::TelerikSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::TelerikSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::TelerikSample.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::TelerikSample.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::TelerikSample.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::TelerikSample.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V21_Theme_AppCompat = global::TelerikSample.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::TelerikSample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::TelerikSample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::TelerikSample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V7_Theme_AppCompat = global::TelerikSample.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::TelerikSample.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::TelerikSample.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::TelerikSample.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::TelerikSample.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::TelerikSample.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Button = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::TelerikSample.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Platform_AppCompat = global::TelerikSample.Droid.Resource.Style.Platform_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Platform_AppCompat_Light = global::TelerikSample.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::TelerikSample.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::TelerikSample.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Platform_V11_AppCompat = global::TelerikSample.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Platform_V11_AppCompat_Light = global::TelerikSample.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Platform_V14_AppCompat = global::TelerikSample.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Platform_V14_AppCompat_Light = global::TelerikSample.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::TelerikSample.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::TelerikSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow = global::TelerikSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::TelerikSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::TelerikSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::TelerikSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::TelerikSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::TelerikSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::TelerikSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::TelerikSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::TelerikSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::TelerikSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::TelerikSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Toolbar_Button_Navigation = global::TelerikSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Button = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Large = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Small = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Title = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::TelerikSample.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::TelerikSample.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::TelerikSample.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::TelerikSample.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::TelerikSample.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::TelerikSample.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TelerikSample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TelerikSample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::TelerikSample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat_Dialog = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat_Light = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::TelerikSample.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.ThemeOverlay_AppCompat = global::TelerikSample.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::TelerikSample.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::TelerikSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::TelerikSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::TelerikSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ActionBar = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ActionButton = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ActionMode = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Button = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Button_Small = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_EditText = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ListView = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_RatingBar = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_SearchView = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Spinner = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Toolbar = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::TelerikSample.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar = global::TelerikSample.Droid.Resource.Styleable.ActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_background = global::TelerikSample.Droid.Resource.Styleable.ActionBar_background;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_backgroundSplit = global::TelerikSample.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_backgroundStacked = global::TelerikSample.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::TelerikSample.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::TelerikSample.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_contentInsetRight = global::TelerikSample.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_contentInsetStart = global::TelerikSample.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::TelerikSample.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_displayOptions = global::TelerikSample.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_divider = global::TelerikSample.Droid.Resource.Styleable.ActionBar_divider;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_elevation = global::TelerikSample.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_height = global::TelerikSample.Droid.Resource.Styleable.ActionBar_height;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::TelerikSample.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::TelerikSample.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_homeLayout = global::TelerikSample.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_icon = global::TelerikSample.Droid.Resource.Styleable.ActionBar_icon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::TelerikSample.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_itemPadding = global::TelerikSample.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_logo = global::TelerikSample.Droid.Resource.Styleable.ActionBar_logo;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_navigationMode = global::TelerikSample.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_popupTheme = global::TelerikSample.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_progressBarPadding = global::TelerikSample.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_progressBarStyle = global::TelerikSample.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_subtitle = global::TelerikSample.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::TelerikSample.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_title = global::TelerikSample.Droid.Resource.Styleable.ActionBar_title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBar_titleTextStyle = global::TelerikSample.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBarLayout = global::TelerikSample.Droid.Resource.Styleable.ActionBarLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::TelerikSample.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionMenuItemView = global::TelerikSample.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::TelerikSample.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionMenuView = global::TelerikSample.Droid.Resource.Styleable.ActionMenuView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionMode = global::TelerikSample.Droid.Resource.Styleable.ActionMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionMode_background = global::TelerikSample.Droid.Resource.Styleable.ActionMode_background;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionMode_backgroundSplit = global::TelerikSample.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionMode_closeItemLayout = global::TelerikSample.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionMode_height = global::TelerikSample.Droid.Resource.Styleable.ActionMode_height;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::TelerikSample.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActionMode_titleTextStyle = global::TelerikSample.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActivityChooserView = global::TelerikSample.Droid.Resource.Styleable.ActivityChooserView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::TelerikSample.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::TelerikSample.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.AlertDialog = global::TelerikSample.Droid.Resource.Styleable.AlertDialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.AlertDialog_android_layout = global::TelerikSample.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::TelerikSample.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.AlertDialog_listItemLayout = global::TelerikSample.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.AlertDialog_listLayout = global::TelerikSample.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::TelerikSample.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::TelerikSample.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.AppCompatTextView = global::TelerikSample.Droid.Resource.Styleable.AppCompatTextView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::TelerikSample.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::TelerikSample.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.CalendarCellState = global::TelerikSample.Droid.Resource.Styleable.CalendarCellState;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.CalendarCellState_state_calendar_cell_today = global::TelerikSample.Droid.Resource.Styleable.CalendarCellState_state_calendar_cell_today;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.CalendarTheme = global::TelerikSample.Droid.Resource.Styleable.CalendarTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.CalendarTheme_calendarStyle = global::TelerikSample.Droid.Resource.Styleable.CalendarTheme_calendarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.DrawerArrowToggle = global::TelerikSample.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.DrawerArrowToggle_barSize = global::TelerikSample.Droid.Resource.Styleable.DrawerArrowToggle_barSize;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.DrawerArrowToggle_color = global::TelerikSample.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::TelerikSample.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::TelerikSample.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize = global::TelerikSample.Droid.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::TelerikSample.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::TelerikSample.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize = global::TelerikSample.Droid.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_divider = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::TelerikSample.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ListPopupWindow = global::TelerikSample.Droid.Resource.Styleable.ListPopupWindow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::TelerikSample.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::TelerikSample.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuGroup = global::TelerikSample.Droid.Resource.Styleable.MenuGroup;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::TelerikSample.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuGroup_android_enabled = global::TelerikSample.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuGroup_android_id = global::TelerikSample.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::TelerikSample.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::TelerikSample.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuGroup_android_visible = global::TelerikSample.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem = global::TelerikSample.Droid.Resource.Styleable.MenuItem;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_actionLayout = global::TelerikSample.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_actionProviderClass = global::TelerikSample.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_actionViewClass = global::TelerikSample.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::TelerikSample.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_android_checkable = global::TelerikSample.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_android_checked = global::TelerikSample.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_android_enabled = global::TelerikSample.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_android_icon = global::TelerikSample.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_android_id = global::TelerikSample.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_android_menuCategory = global::TelerikSample.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::TelerikSample.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_android_onClick = global::TelerikSample.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::TelerikSample.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_android_title = global::TelerikSample.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::TelerikSample.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_android_visible = global::TelerikSample.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuItem_showAsAction = global::TelerikSample.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuView = global::TelerikSample.Droid.Resource.Styleable.MenuView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuView_android_headerBackground = global::TelerikSample.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::TelerikSample.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuView_android_itemBackground = global::TelerikSample.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::TelerikSample.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::TelerikSample.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuView_android_verticalDivider = global::TelerikSample.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::TelerikSample.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::TelerikSample.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.PopupWindow = global::TelerikSample.Droid.Resource.Styleable.PopupWindow;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::TelerikSample.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::TelerikSample.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.PopupWindowBackgroundState = global::TelerikSample.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::TelerikSample.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RadCalendarView = global::TelerikSample.Droid.Resource.Styleable.RadCalendarView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RadCalendarView_calendarBackground = global::TelerikSample.Droid.Resource.Styleable.RadCalendarView_calendarBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RadCalendarView_displayMode = global::TelerikSample.Droid.Resource.Styleable.RadCalendarView_displayMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RadCalendarView_isYearModeCompact = global::TelerikSample.Droid.Resource.Styleable.RadCalendarView_isYearModeCompact;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RadCalendarView_selectionMode = global::TelerikSample.Droid.Resource.Styleable.RadCalendarView_selectionMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RadCalendarView_showCellDecorations = global::TelerikSample.Droid.Resource.Styleable.RadCalendarView_showCellDecorations;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RadCalendarView_showDayNames = global::TelerikSample.Droid.Resource.Styleable.RadCalendarView_showDayNames;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RadCalendarView_showGridLines = global::TelerikSample.Droid.Resource.Styleable.RadCalendarView_showGridLines;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RadCalendarView_showTitle = global::TelerikSample.Droid.Resource.Styleable.RadCalendarView_showTitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RadCalendarView_weekNumberDisplayMode = global::TelerikSample.Droid.Resource.Styleable.RadCalendarView_weekNumberDisplayMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RecyclerView = global::TelerikSample.Droid.Resource.Styleable.RecyclerView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RecyclerView_android_orientation = global::TelerikSample.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RecyclerView_layoutManager = global::TelerikSample.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RecyclerView_reverseLayout = global::TelerikSample.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RecyclerView_spanCount = global::TelerikSample.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::TelerikSample.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView = global::TelerikSample.Droid.Resource.Styleable.SearchView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_android_focusable = global::TelerikSample.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_android_imeOptions = global::TelerikSample.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_android_inputType = global::TelerikSample.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_android_maxWidth = global::TelerikSample.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_closeIcon = global::TelerikSample.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_commitIcon = global::TelerikSample.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_defaultQueryHint = global::TelerikSample.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_goIcon = global::TelerikSample.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::TelerikSample.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_layout = global::TelerikSample.Droid.Resource.Styleable.SearchView_layout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_queryBackground = global::TelerikSample.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_queryHint = global::TelerikSample.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_searchHintIcon = global::TelerikSample.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_searchIcon = global::TelerikSample.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_submitBackground = global::TelerikSample.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::TelerikSample.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SearchView_voiceIcon = global::TelerikSample.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Spinner = global::TelerikSample.Droid.Resource.Styleable.Spinner;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Spinner_android_background = global::TelerikSample.Droid.Resource.Styleable.Spinner_android_background;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Spinner_android_dropDownHorizontalOffset = global::TelerikSample.Droid.Resource.Styleable.Spinner_android_dropDownHorizontalOffset;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Spinner_android_dropDownSelector = global::TelerikSample.Droid.Resource.Styleable.Spinner_android_dropDownSelector;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Spinner_android_dropDownVerticalOffset = global::TelerikSample.Droid.Resource.Styleable.Spinner_android_dropDownVerticalOffset;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::TelerikSample.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Spinner_android_gravity = global::TelerikSample.Droid.Resource.Styleable.Spinner_android_gravity;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Spinner_android_popupBackground = global::TelerikSample.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Spinner_disableChildrenWhenDisabled = global::TelerikSample.Droid.Resource.Styleable.Spinner_disableChildrenWhenDisabled;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Spinner_popupPromptView = global::TelerikSample.Droid.Resource.Styleable.Spinner_popupPromptView;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Spinner_prompt = global::TelerikSample.Droid.Resource.Styleable.Spinner_prompt;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Spinner_spinnerMode = global::TelerikSample.Droid.Resource.Styleable.Spinner_spinnerMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SwitchCompat = global::TelerikSample.Droid.Resource.Styleable.SwitchCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SwitchCompat_android_textOff = global::TelerikSample.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SwitchCompat_android_textOn = global::TelerikSample.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SwitchCompat_android_thumb = global::TelerikSample.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SwitchCompat_showText = global::TelerikSample.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SwitchCompat_splitTrack = global::TelerikSample.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::TelerikSample.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SwitchCompat_switchPadding = global::TelerikSample.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::TelerikSample.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::TelerikSample.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.SwitchCompat_track = global::TelerikSample.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.TextAppearance = global::TelerikSample.Droid.Resource.Styleable.TextAppearance;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.TextAppearance_android_textColor = global::TelerikSample.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.TextAppearance_android_textSize = global::TelerikSample.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.TextAppearance_android_textStyle = global::TelerikSample.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.TextAppearance_android_typeface = global::TelerikSample.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.TextAppearance_textAllCaps = global::TelerikSample.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme = global::TelerikSample.Droid.Resource.Styleable.Theme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionBarDivider = global::TelerikSample.Droid.Resource.Styleable.Theme_actionBarDivider;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionBarItemBackground = global::TelerikSample.Droid.Resource.Styleable.Theme_actionBarItemBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionBarPopupTheme = global::TelerikSample.Droid.Resource.Styleable.Theme_actionBarPopupTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionBarSize = global::TelerikSample.Droid.Resource.Styleable.Theme_actionBarSize;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionBarSplitStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_actionBarSplitStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionBarStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_actionBarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionBarTabBarStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_actionBarTabBarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionBarTabStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_actionBarTabStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionBarTabTextStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_actionBarTabTextStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionBarTheme = global::TelerikSample.Droid.Resource.Styleable.Theme_actionBarTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionBarWidgetTheme = global::TelerikSample.Droid.Resource.Styleable.Theme_actionBarWidgetTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionButtonStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_actionButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionDropDownStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_actionDropDownStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionMenuTextAppearance = global::TelerikSample.Droid.Resource.Styleable.Theme_actionMenuTextAppearance;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionMenuTextColor = global::TelerikSample.Droid.Resource.Styleable.Theme_actionMenuTextColor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionModeBackground = global::TelerikSample.Droid.Resource.Styleable.Theme_actionModeBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionModeCloseButtonStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_actionModeCloseButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionModeCloseDrawable = global::TelerikSample.Droid.Resource.Styleable.Theme_actionModeCloseDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionModeCopyDrawable = global::TelerikSample.Droid.Resource.Styleable.Theme_actionModeCopyDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionModeCutDrawable = global::TelerikSample.Droid.Resource.Styleable.Theme_actionModeCutDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionModeFindDrawable = global::TelerikSample.Droid.Resource.Styleable.Theme_actionModeFindDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionModePasteDrawable = global::TelerikSample.Droid.Resource.Styleable.Theme_actionModePasteDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionModePopupWindowStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_actionModePopupWindowStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionModeSelectAllDrawable = global::TelerikSample.Droid.Resource.Styleable.Theme_actionModeSelectAllDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionModeShareDrawable = global::TelerikSample.Droid.Resource.Styleable.Theme_actionModeShareDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionModeSplitBackground = global::TelerikSample.Droid.Resource.Styleable.Theme_actionModeSplitBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionModeStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_actionModeStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionModeWebSearchDrawable = global::TelerikSample.Droid.Resource.Styleable.Theme_actionModeWebSearchDrawable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionOverflowButtonStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_actionOverflowButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_actionOverflowMenuStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_actionOverflowMenuStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_activityChooserViewStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_activityChooserViewStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_alertDialogButtonGroupStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_alertDialogButtonGroupStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_alertDialogCenterButtons = global::TelerikSample.Droid.Resource.Styleable.Theme_alertDialogCenterButtons;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_alertDialogStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_alertDialogStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_alertDialogTheme = global::TelerikSample.Droid.Resource.Styleable.Theme_alertDialogTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_android_windowAnimationStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_android_windowAnimationStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_android_windowIsFloating = global::TelerikSample.Droid.Resource.Styleable.Theme_android_windowIsFloating;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_autoCompleteTextViewStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_autoCompleteTextViewStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_borderlessButtonStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_borderlessButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_buttonBarButtonStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_buttonBarButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_buttonBarNegativeButtonStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_buttonBarNegativeButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_buttonBarNeutralButtonStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_buttonBarNeutralButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_buttonBarPositiveButtonStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_buttonBarPositiveButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_buttonBarStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_buttonBarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_buttonStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_buttonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_buttonStyleSmall = global::TelerikSample.Droid.Resource.Styleable.Theme_buttonStyleSmall;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_checkboxStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_checkboxStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_checkedTextViewStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_checkedTextViewStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_colorAccent = global::TelerikSample.Droid.Resource.Styleable.Theme_colorAccent;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_colorButtonNormal = global::TelerikSample.Droid.Resource.Styleable.Theme_colorButtonNormal;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_colorControlActivated = global::TelerikSample.Droid.Resource.Styleable.Theme_colorControlActivated;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_colorControlHighlight = global::TelerikSample.Droid.Resource.Styleable.Theme_colorControlHighlight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_colorControlNormal = global::TelerikSample.Droid.Resource.Styleable.Theme_colorControlNormal;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_colorPrimary = global::TelerikSample.Droid.Resource.Styleable.Theme_colorPrimary;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_colorPrimaryDark = global::TelerikSample.Droid.Resource.Styleable.Theme_colorPrimaryDark;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_colorSwitchThumbNormal = global::TelerikSample.Droid.Resource.Styleable.Theme_colorSwitchThumbNormal;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_dialogPreferredPadding = global::TelerikSample.Droid.Resource.Styleable.Theme_dialogPreferredPadding;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_dialogTheme = global::TelerikSample.Droid.Resource.Styleable.Theme_dialogTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_dividerHorizontal = global::TelerikSample.Droid.Resource.Styleable.Theme_dividerHorizontal;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_dividerVertical = global::TelerikSample.Droid.Resource.Styleable.Theme_dividerVertical;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_dropDownListViewStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_dropDownListViewStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_dropdownListPreferredItemHeight = global::TelerikSample.Droid.Resource.Styleable.Theme_dropdownListPreferredItemHeight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_editTextBackground = global::TelerikSample.Droid.Resource.Styleable.Theme_editTextBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_editTextColor = global::TelerikSample.Droid.Resource.Styleable.Theme_editTextColor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_editTextStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_editTextStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_homeAsUpIndicator = global::TelerikSample.Droid.Resource.Styleable.Theme_homeAsUpIndicator;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_listChoiceBackgroundIndicator = global::TelerikSample.Droid.Resource.Styleable.Theme_listChoiceBackgroundIndicator;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_listDividerAlertDialog = global::TelerikSample.Droid.Resource.Styleable.Theme_listDividerAlertDialog;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_listPopupWindowStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_listPopupWindowStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_listPreferredItemHeight = global::TelerikSample.Droid.Resource.Styleable.Theme_listPreferredItemHeight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_listPreferredItemHeightLarge = global::TelerikSample.Droid.Resource.Styleable.Theme_listPreferredItemHeightLarge;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_listPreferredItemHeightSmall = global::TelerikSample.Droid.Resource.Styleable.Theme_listPreferredItemHeightSmall;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_listPreferredItemPaddingLeft = global::TelerikSample.Droid.Resource.Styleable.Theme_listPreferredItemPaddingLeft;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_listPreferredItemPaddingRight = global::TelerikSample.Droid.Resource.Styleable.Theme_listPreferredItemPaddingRight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_panelBackground = global::TelerikSample.Droid.Resource.Styleable.Theme_panelBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_panelMenuListTheme = global::TelerikSample.Droid.Resource.Styleable.Theme_panelMenuListTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_panelMenuListWidth = global::TelerikSample.Droid.Resource.Styleable.Theme_panelMenuListWidth;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_popupMenuStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_popupMenuStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_popupWindowStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_popupWindowStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_radioButtonStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_radioButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_ratingBarStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_ratingBarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_searchViewStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_searchViewStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_selectableItemBackground = global::TelerikSample.Droid.Resource.Styleable.Theme_selectableItemBackground;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_selectableItemBackgroundBorderless = global::TelerikSample.Droid.Resource.Styleable.Theme_selectableItemBackgroundBorderless;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_spinnerDropDownItemStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_spinnerDropDownItemStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_spinnerStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_spinnerStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_switchStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_switchStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_textAppearanceLargePopupMenu = global::TelerikSample.Droid.Resource.Styleable.Theme_textAppearanceLargePopupMenu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_textAppearanceListItem = global::TelerikSample.Droid.Resource.Styleable.Theme_textAppearanceListItem;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_textAppearanceListItemSmall = global::TelerikSample.Droid.Resource.Styleable.Theme_textAppearanceListItemSmall;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle = global::TelerikSample.Droid.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_textAppearanceSearchResultTitle = global::TelerikSample.Droid.Resource.Styleable.Theme_textAppearanceSearchResultTitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_textAppearanceSmallPopupMenu = global::TelerikSample.Droid.Resource.Styleable.Theme_textAppearanceSmallPopupMenu;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_textColorAlertDialogListItem = global::TelerikSample.Droid.Resource.Styleable.Theme_textColorAlertDialogListItem;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_textColorSearchUrl = global::TelerikSample.Droid.Resource.Styleable.Theme_textColorSearchUrl;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_toolbarNavigationButtonStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_toolbarNavigationButtonStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_toolbarStyle = global::TelerikSample.Droid.Resource.Styleable.Theme_toolbarStyle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_windowActionBar = global::TelerikSample.Droid.Resource.Styleable.Theme_windowActionBar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_windowActionBarOverlay = global::TelerikSample.Droid.Resource.Styleable.Theme_windowActionBarOverlay;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_windowActionModeOverlay = global::TelerikSample.Droid.Resource.Styleable.Theme_windowActionModeOverlay;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_windowFixedHeightMajor = global::TelerikSample.Droid.Resource.Styleable.Theme_windowFixedHeightMajor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_windowFixedHeightMinor = global::TelerikSample.Droid.Resource.Styleable.Theme_windowFixedHeightMinor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_windowFixedWidthMajor = global::TelerikSample.Droid.Resource.Styleable.Theme_windowFixedWidthMajor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_windowFixedWidthMinor = global::TelerikSample.Droid.Resource.Styleable.Theme_windowFixedWidthMinor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_windowMinWidthMajor = global::TelerikSample.Droid.Resource.Styleable.Theme_windowMinWidthMajor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_windowMinWidthMinor = global::TelerikSample.Droid.Resource.Styleable.Theme_windowMinWidthMinor;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Theme_windowNoTitle = global::TelerikSample.Droid.Resource.Styleable.Theme_windowNoTitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar = global::TelerikSample.Droid.Resource.Styleable.Toolbar;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_android_gravity = global::TelerikSample.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_android_minHeight = global::TelerikSample.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::TelerikSample.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_collapseIcon = global::TelerikSample.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::TelerikSample.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::TelerikSample.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_contentInsetRight = global::TelerikSample.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_contentInsetStart = global::TelerikSample.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::TelerikSample.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::TelerikSample.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_navigationIcon = global::TelerikSample.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_popupTheme = global::TelerikSample.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_subtitle = global::TelerikSample.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::TelerikSample.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_title = global::TelerikSample.Droid.Resource.Styleable.Toolbar_title;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::TelerikSample.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::TelerikSample.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_titleMarginStart = global::TelerikSample.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_titleMarginTop = global::TelerikSample.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_titleMargins = global::TelerikSample.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::TelerikSample.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.View = global::TelerikSample.Droid.Resource.Styleable.View;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.View_android_focusable = global::TelerikSample.Droid.Resource.Styleable.View_android_focusable;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.View_android_theme = global::TelerikSample.Droid.Resource.Styleable.View_android_theme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.View_backgroundTint = global::TelerikSample.Droid.Resource.Styleable.View_backgroundTint;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.View_backgroundTintMode = global::TelerikSample.Droid.Resource.Styleable.View_backgroundTintMode;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.View_paddingEnd = global::TelerikSample.Droid.Resource.Styleable.View_paddingEnd;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.View_paddingStart = global::TelerikSample.Droid.Resource.Styleable.View_paddingStart;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.View_theme = global::TelerikSample.Droid.Resource.Styleable.View_theme;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ViewStubCompat = global::TelerikSample.Droid.Resource.Styleable.ViewStubCompat;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ViewStubCompat_android_id = global::TelerikSample.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::TelerikSample.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Telerik.XamarinForms.DataControlsRenderer.Android.Resource.Styleable.ViewStubCompat_android_layout = global::TelerikSample.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Resource.String.ApplicationName = global::TelerikSample.Droid.Resource.String.ApplicationName;
 			global::Xamarin.Forms.Platform.Resource.String.Hello = global::TelerikSample.Droid.Resource.String.Hello;
 			global::XLabs.Forms.Resource.Color.calendar_active_month_bg = global::TelerikSample.Droid.Resource.Color.calendar_active_month_bg;
@@ -104,6 +1424,12 @@ namespace TelerikSample.Droid
 			
 			// aapt resource value: 0x7f040009
 			public const int abc_slide_out_top = 2130968585;
+			
+			// aapt resource value: 0x7f04000a
+			public const int drawer_slide_in_top = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int drawer_slide_out_top = 2130968587;
 			
 			static Animation()
 			{
@@ -280,6 +1606,12 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f0100b4
 			public const int buttonStyleSmall = 2130772148;
 			
+			// aapt resource value: 0x7f0100d4
+			public const int calendarBackground = 2130772180;
+			
+			// aapt resource value: 0x7f0100dd
+			public const int calendarStyle = 2130772189;
+			
 			// aapt resource value: 0x7f0100b5
 			public const int checkboxStyle = 2130772149;
 			
@@ -355,6 +1687,9 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f01004b
 			public const int disableChildrenWhenDisabled = 2130772043;
 			
+			// aapt resource value: 0x7f0100da
+			public const int displayMode = 2130772186;
+			
 			// aapt resource value: 0x7f010009
 			public const int displayOptions = 2130771977;
 			
@@ -397,6 +1732,9 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f010022
 			public const int expandActivityOverflowButtonDrawable = 2130772002;
 			
+			// aapt resource value: 0x7f0100d0
+			public const int fillViewport = 2130772176;
+			
 			// aapt resource value: 0x7f01002c
 			public const int gapBetweenBars = 2130772012;
 			
@@ -429,6 +1767,9 @@ namespace TelerikSample.Droid
 			
 			// aapt resource value: 0x7f010006
 			public const int isLightTheme = 2130771974;
+			
+			// aapt resource value: 0x7f0100dc
+			public const int isYearModeCompact = 2130772188;
 			
 			// aapt resource value: 0x7f010018
 			public const int itemPadding = 2130771992;
@@ -511,6 +1852,15 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f01009f
 			public const int panelMenuListWidth = 2130772127;
 			
+			// aapt resource value: 0x7f0100cf
+			public const int pointerFill = 2130772175;
+			
+			// aapt resource value: 0x7f0100ce
+			public const int pointerMargin = 2130772174;
+			
+			// aapt resource value: 0x7f0100cd
+			public const int pointerSize = 2130772173;
+			
 			// aapt resource value: 0x7f01008d
 			public const int popupMenuStyle = 2130772109;
 			
@@ -541,6 +1891,9 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f01003d
 			public const int queryHint = 2130772029;
 			
+			// aapt resource value: 0x7f0100d2
+			public const int radScrollViewStyle = 2130772178;
+			
 			// aapt resource value: 0x7f0100b8
 			public const int radioButtonStyle = 2130772152;
 			
@@ -549,6 +1902,9 @@ namespace TelerikSample.Droid
 			
 			// aapt resource value: 0x7f010002
 			public const int reverseLayout = 2130771970;
+			
+			// aapt resource value: 0x7f0100d1
+			public const int scrollMode = 2130772177;
 			
 			// aapt resource value: 0x7f010042
 			public const int searchHintIcon = 2130772034;
@@ -565,14 +1921,29 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f010086
 			public const int selectableItemBackgroundBorderless = 2130772102;
 			
+			// aapt resource value: 0x7f0100d9
+			public const int selectionMode = 2130772185;
+			
 			// aapt resource value: 0x7f010034
 			public const int showAsAction = 2130772020;
+			
+			// aapt resource value: 0x7f0100d8
+			public const int showCellDecorations = 2130772184;
+			
+			// aapt resource value: 0x7f0100d6
+			public const int showDayNames = 2130772182;
 			
 			// aapt resource value: 0x7f010032
 			public const int showDividers = 2130772018;
 			
+			// aapt resource value: 0x7f0100d7
+			public const int showGridLines = 2130772183;
+			
 			// aapt resource value: 0x7f010052
 			public const int showText = 2130772050;
+			
+			// aapt resource value: 0x7f0100d5
+			public const int showTitle = 2130772181;
 			
 			// aapt resource value: 0x7f010026
 			public const int singleChoiceItemLayout = 2130772006;
@@ -600,6 +1971,9 @@ namespace TelerikSample.Droid
 			
 			// aapt resource value: 0x7f01003a
 			public const int state_above_anchor = 2130772026;
+			
+			// aapt resource value: 0x7f0100d3
+			public const int state_calendar_cell_today = 2130772179;
 			
 			// aapt resource value: 0x7f010047
 			public const int submitBackground = 2130772039;
@@ -703,6 +2077,9 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f010043
 			public const int voiceIcon = 2130772035;
 			
+			// aapt resource value: 0x7f0100db
+			public const int weekNumberDisplayMode = 2130772187;
+			
 			// aapt resource value: 0x7f010053
 			public const int windowActionBar = 2130772051;
 			
@@ -780,29 +2157,29 @@ namespace TelerikSample.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b003e
-			public const int abc_background_cache_hint_selector_material_dark = 2131427390;
+			// aapt resource value: 0x7f0b0049
+			public const int abc_background_cache_hint_selector_material_dark = 2131427401;
 			
-			// aapt resource value: 0x7f0b003f
-			public const int abc_background_cache_hint_selector_material_light = 2131427391;
+			// aapt resource value: 0x7f0b004a
+			public const int abc_background_cache_hint_selector_material_light = 2131427402;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int abc_input_method_navigation_guard = 2131427328;
 			
-			// aapt resource value: 0x7f0b0040
-			public const int abc_primary_text_disable_only_material_dark = 2131427392;
+			// aapt resource value: 0x7f0b004b
+			public const int abc_primary_text_disable_only_material_dark = 2131427403;
 			
-			// aapt resource value: 0x7f0b0041
-			public const int abc_primary_text_disable_only_material_light = 2131427393;
+			// aapt resource value: 0x7f0b004c
+			public const int abc_primary_text_disable_only_material_light = 2131427404;
 			
-			// aapt resource value: 0x7f0b0042
-			public const int abc_primary_text_material_dark = 2131427394;
+			// aapt resource value: 0x7f0b004d
+			public const int abc_primary_text_material_dark = 2131427405;
 			
-			// aapt resource value: 0x7f0b0043
-			public const int abc_primary_text_material_light = 2131427395;
+			// aapt resource value: 0x7f0b004e
+			public const int abc_primary_text_material_light = 2131427406;
 			
-			// aapt resource value: 0x7f0b0044
-			public const int abc_search_url_text = 2131427396;
+			// aapt resource value: 0x7f0b004f
+			public const int abc_search_url_text = 2131427407;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int abc_search_url_text_normal = 2131427329;
@@ -813,11 +2190,11 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f0b0003
 			public const int abc_search_url_text_selected = 2131427331;
 			
-			// aapt resource value: 0x7f0b0045
-			public const int abc_secondary_text_material_dark = 2131427397;
+			// aapt resource value: 0x7f0b0050
+			public const int abc_secondary_text_material_dark = 2131427408;
 			
-			// aapt resource value: 0x7f0b0046
-			public const int abc_secondary_text_material_light = 2131427398;
+			// aapt resource value: 0x7f0b0051
+			public const int abc_secondary_text_material_light = 2131427409;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int accent_material_dark = 2131427332;
@@ -836,6 +2213,9 @@ namespace TelerikSample.Droid
 			
 			// aapt resource value: 0x7f0b0009
 			public const int background_material_light = 2131427337;
+			
+			// aapt resource value: 0x7f0b0048
+			public const int black = 2131427400;
 			
 			// aapt resource value: 0x7f0b000a
 			public const int bright_foreground_disabled_material_dark = 2131427338;
@@ -891,11 +2271,14 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f0b003c
 			public const int calendar_text_selected = 2131427388;
 			
-			// aapt resource value: 0x7f0b0047
-			public const int calendar_text_selector = 2131427399;
+			// aapt resource value: 0x7f0b0052
+			public const int calendar_text_selector = 2131427410;
 			
 			// aapt resource value: 0x7f0b003d
 			public const int calendar_text_unselectable = 2131427389;
+			
+			// aapt resource value: 0x7f0b0047
+			public const int data_form_list_selected = 2131427399;
 			
 			// aapt resource value: 0x7f0b0012
 			public const int dim_foreground_disabled_material_dark = 2131427346;
@@ -908,6 +2291,9 @@ namespace TelerikSample.Droid
 			
 			// aapt resource value: 0x7f0b0015
 			public const int dim_foreground_material_light = 2131427349;
+			
+			// aapt resource value: 0x7f0b0044
+			public const int groupHeaderTextColor = 2131427396;
 			
 			// aapt resource value: 0x7f0b0016
 			public const int highlighted_text_material_dark = 2131427350;
@@ -927,6 +2313,12 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f0b001b
 			public const int link_text_material_light = 2131427355;
 			
+			// aapt resource value: 0x7f0b0043
+			public const int listAccentColor = 2131427395;
+			
+			// aapt resource value: 0x7f0b0042
+			public const int listItemTextColor = 2131427394;
+			
 			// aapt resource value: 0x7f0b001c
 			public const int material_blue_grey_800 = 2131427356;
 			
@@ -941,6 +2333,9 @@ namespace TelerikSample.Droid
 			
 			// aapt resource value: 0x7f0b0020
 			public const int material_deep_teal_500 = 2131427360;
+			
+			// aapt resource value: 0x7f0b0041
+			public const int pressedColor = 2131427393;
 			
 			// aapt resource value: 0x7f0b0021
 			public const int primary_dark_material_dark = 2131427361;
@@ -984,23 +2379,38 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f0b002e
 			public const int secondary_text_disabled_material_light = 2131427374;
 			
+			// aapt resource value: 0x7f0b0040
+			public const int selectionColor = 2131427392;
+			
+			// aapt resource value: 0x7f0b0045
+			public const int shadeColor = 2131427397;
+			
+			// aapt resource value: 0x7f0b0046
+			public const int shadeColorCenter = 2131427398;
+			
 			// aapt resource value: 0x7f0b002f
 			public const int switch_thumb_disabled_material_dark = 2131427375;
 			
 			// aapt resource value: 0x7f0b0030
 			public const int switch_thumb_disabled_material_light = 2131427376;
 			
-			// aapt resource value: 0x7f0b0048
-			public const int switch_thumb_material_dark = 2131427400;
+			// aapt resource value: 0x7f0b0053
+			public const int switch_thumb_material_dark = 2131427411;
 			
-			// aapt resource value: 0x7f0b0049
-			public const int switch_thumb_material_light = 2131427401;
+			// aapt resource value: 0x7f0b0054
+			public const int switch_thumb_material_light = 2131427412;
 			
 			// aapt resource value: 0x7f0b0031
 			public const int switch_thumb_normal_material_dark = 2131427377;
 			
 			// aapt resource value: 0x7f0b0032
 			public const int switch_thumb_normal_material_light = 2131427378;
+			
+			// aapt resource value: 0x7f0b003e
+			public const int transparent = 2131427390;
+			
+			// aapt resource value: 0x7f0b003f
+			public const int white = 2131427391;
 			
 			static Color()
 			{
@@ -1210,6 +2620,12 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f05004a
 			public const int calendar_text_small = 2131034186;
 			
+			// aapt resource value: 0x7f05004c
+			public const int card_deck_translation = 2131034188;
+			
+			// aapt resource value: 0x7f05004d
+			public const int date_text_size_year_mode = 2131034189;
+			
 			// aapt resource value: 0x7f050009
 			public const int dialog_fixed_height_major = 2131034121;
 			
@@ -1230,6 +2646,9 @@ namespace TelerikSample.Droid
 			
 			// aapt resource value: 0x7f050000
 			public const int item_touch_helper_max_drag_scroll_per_frame = 2131034112;
+			
+			// aapt resource value: 0x7f05004b
+			public const int legend_stroke_width = 2131034187;
 			
 			// aapt resource value: 0x7f050043
 			public const int notification_large_icon_height = 2131034179;
@@ -1437,10 +2856,64 @@ namespace TelerikSample.Droid
 			public const int calendar_bg_selector = 2130837564;
 			
 			// aapt resource value: 0x7f02003d
-			public const int icon = 2130837565;
+			public const int data_form_invalid_background = 2130837565;
 			
 			// aapt resource value: 0x7f02003e
-			public const int notification_template_icon_bg = 2130837566;
+			public const int data_form_invalid_icon = 2130837566;
+			
+			// aapt resource value: 0x7f02003f
+			public const int data_form_list_item_states = 2130837567;
+			
+			// aapt resource value: 0x7f020040
+			public const int data_form_segment_checked = 2130837568;
+			
+			// aapt resource value: 0x7f020041
+			public const int data_form_segment_item = 2130837569;
+			
+			// aapt resource value: 0x7f020042
+			public const int data_form_segment_unchecked = 2130837570;
+			
+			// aapt resource value: 0x7f020043
+			public const int data_form_valid_background = 2130837571;
+			
+			// aapt resource value: 0x7f020044
+			public const int data_form_valid_icon = 2130837572;
+			
+			// aapt resource value: 0x7f020045
+			public const int dataform_number_picker_background = 2130837573;
+			
+			// aapt resource value: 0x7f020046
+			public const int events_popup_bg = 2130837574;
+			
+			// aapt resource value: 0x7f020047
+			public const int gingerbread_background = 2130837575;
+			
+			// aapt resource value: 0x7f020048
+			public const int hamburger = 2130837576;
+			
+			// aapt resource value: 0x7f020049
+			public const int hmb = 2130837577;
+			
+			// aapt resource value: 0x7f02004a
+			public const int icon = 2130837578;
+			
+			// aapt resource value: 0x7f020050
+			public const int notification_template_icon_bg = 2130837584;
+			
+			// aapt resource value: 0x7f02004b
+			public const int pressable_item_background = 2130837579;
+			
+			// aapt resource value: 0x7f02004c
+			public const int selectable_item_background = 2130837580;
+			
+			// aapt resource value: 0x7f02004d
+			public const int shade_bottom = 2130837581;
+			
+			// aapt resource value: 0x7f02004e
+			public const int shade_corner = 2130837582;
+			
+			// aapt resource value: 0x7f02004f
+			public const int shade_right = 2130837583;
 			
 			static Drawable()
 			{
@@ -1455,35 +2928,62 @@ namespace TelerikSample.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060054
-			public const int action0 = 2131099732;
+			// aapt resource value: 0x7f06002c
+			public const int Block = 2131099692;
 			
-			// aapt resource value: 0x7f060041
-			public const int action_bar = 2131099713;
+			// aapt resource value: 0x7f06002d
+			public const int Inline = 2131099693;
+			
+			// aapt resource value: 0x7f060029
+			public const int Month = 2131099689;
+			
+			// aapt resource value: 0x7f060026
+			public const int Multiple = 2131099686;
+			
+			// aapt resource value: 0x7f06002e
+			public const int None = 2131099694;
+			
+			// aapt resource value: 0x7f060027
+			public const int Range = 2131099687;
+			
+			// aapt resource value: 0x7f060028
+			public const int Single = 2131099688;
+			
+			// aapt resource value: 0x7f06002a
+			public const int Week = 2131099690;
+			
+			// aapt resource value: 0x7f06002b
+			public const int Year = 2131099691;
+			
+			// aapt resource value: 0x7f060081
+			public const int action0 = 2131099777;
+			
+			// aapt resource value: 0x7f06004c
+			public const int action_bar = 2131099724;
 			
 			// aapt resource value: 0x7f060001
 			public const int action_bar_activity_content = 2131099649;
 			
-			// aapt resource value: 0x7f060040
-			public const int action_bar_container = 2131099712;
+			// aapt resource value: 0x7f06004b
+			public const int action_bar_container = 2131099723;
 			
-			// aapt resource value: 0x7f06003c
-			public const int action_bar_root = 2131099708;
+			// aapt resource value: 0x7f060047
+			public const int action_bar_root = 2131099719;
 			
 			// aapt resource value: 0x7f060002
 			public const int action_bar_spinner = 2131099650;
 			
-			// aapt resource value: 0x7f060025
-			public const int action_bar_subtitle = 2131099685;
+			// aapt resource value: 0x7f060030
+			public const int action_bar_subtitle = 2131099696;
 			
-			// aapt resource value: 0x7f060024
-			public const int action_bar_title = 2131099684;
+			// aapt resource value: 0x7f06002f
+			public const int action_bar_title = 2131099695;
 			
-			// aapt resource value: 0x7f060042
-			public const int action_context_bar = 2131099714;
+			// aapt resource value: 0x7f06004d
+			public const int action_context_bar = 2131099725;
 			
-			// aapt resource value: 0x7f060058
-			public const int action_divider = 2131099736;
+			// aapt resource value: 0x7f060085
+			public const int action_divider = 2131099781;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -1491,20 +2991,20 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f060004
 			public const int action_menu_presenter = 2131099652;
 			
-			// aapt resource value: 0x7f06003e
-			public const int action_mode_bar = 2131099710;
+			// aapt resource value: 0x7f060049
+			public const int action_mode_bar = 2131099721;
 			
-			// aapt resource value: 0x7f06003d
-			public const int action_mode_bar_stub = 2131099709;
-			
-			// aapt resource value: 0x7f060026
-			public const int action_mode_close_button = 2131099686;
-			
-			// aapt resource value: 0x7f060027
-			public const int activity_chooser_view_content = 2131099687;
+			// aapt resource value: 0x7f060048
+			public const int action_mode_bar_stub = 2131099720;
 			
 			// aapt resource value: 0x7f060031
-			public const int alertTitle = 2131099697;
+			public const int action_mode_close_button = 2131099697;
+			
+			// aapt resource value: 0x7f060032
+			public const int activity_chooser_view_content = 2131099698;
+			
+			// aapt resource value: 0x7f06003c
+			public const int alertTitle = 2131099708;
 			
 			// aapt resource value: 0x7f060017
 			public const int always = 2131099671;
@@ -1512,41 +3012,128 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f060014
 			public const int beginning = 2131099668;
 			
-			// aapt resource value: 0x7f060037
-			public const int buttonPanel = 2131099703;
+			// aapt resource value: 0x7f060042
+			public const int buttonPanel = 2131099714;
 			
-			// aapt resource value: 0x7f060053
-			public const int calendar_grid = 2131099731;
-			
-			// aapt resource value: 0x7f060050
-			public const int calendar_view = 2131099728;
-			
-			// aapt resource value: 0x7f060055
-			public const int cancel_action = 2131099733;
-			
-			// aapt resource value: 0x7f060039
-			public const int checkbox = 2131099705;
+			// aapt resource value: 0x7f06007e
+			public const int calendar_grid = 2131099774;
 			
 			// aapt resource value: 0x7f06005b
-			public const int chronometer = 2131099739;
+			public const int calendar_view = 2131099739;
+			
+			// aapt resource value: 0x7f060082
+			public const int cancel_action = 2131099778;
+			
+			// aapt resource value: 0x7f060096
+			public const int chart_data_point_content_container = 2131099798;
+			
+			// aapt resource value: 0x7f060078
+			public const int chart_tooltip_category = 2131099768;
+			
+			// aapt resource value: 0x7f060095
+			public const int chart_tooltip_pointer = 2131099797;
+			
+			// aapt resource value: 0x7f060079
+			public const int chart_tooltip_value = 2131099769;
+			
+			// aapt resource value: 0x7f060044
+			public const int checkbox = 2131099716;
+			
+			// aapt resource value: 0x7f060088
+			public const int chronometer = 2131099784;
 			
 			// aapt resource value: 0x7f060018
 			public const int collapseActionView = 2131099672;
 			
-			// aapt resource value: 0x7f060032
-			public const int contentPanel = 2131099698;
+			// aapt resource value: 0x7f06003d
+			public const int contentPanel = 2131099709;
 			
-			// aapt resource value: 0x7f060036
-			public const int custom = 2131099702;
+			// aapt resource value: 0x7f060041
+			public const int custom = 2131099713;
+			
+			// aapt resource value: 0x7f060040
+			public const int customPanel = 2131099712;
+			
+			// aapt resource value: 0x7f06005e
+			public const int data_form_autocomplete_editor = 2131099742;
+			
+			// aapt resource value: 0x7f06005f
+			public const int data_form_checkbox_editor = 2131099743;
+			
+			// aapt resource value: 0x7f060060
+			public const int data_form_date_editor = 2131099744;
+			
+			// aapt resource value: 0x7f060061
+			public const int data_form_decimal_editor = 2131099745;
+			
+			// aapt resource value: 0x7f060066
+			public const int data_form_editor_container = 2131099750;
+			
+			// aapt resource value: 0x7f060063
+			public const int data_form_editor_group_container = 2131099747;
+			
+			// aapt resource value: 0x7f06006a
+			public const int data_form_expandable_group_expand_button = 2131099754;
+			
+			// aapt resource value: 0x7f060062
+			public const int data_form_group_header = 2131099746;
+			
+			// aapt resource value: 0x7f060065
+			public const int data_form_header_container = 2131099749;
+			
+			// aapt resource value: 0x7f06006b
+			public const int data_form_integer_editor = 2131099755;
+			
+			// aapt resource value: 0x7f06006c
+			public const int data_form_list_editor = 2131099756;
+			
+			// aapt resource value: 0x7f06006d
+			public const int data_form_number_picker_editor = 2131099757;
+			
+			// aapt resource value: 0x7f06006e
+			public const int data_form_radio_group = 2131099758;
+			
+			// aapt resource value: 0x7f06006f
+			public const int data_form_root_layout = 2131099759;
+			
+			// aapt resource value: 0x7f060070
+			public const int data_form_seekbar_editor = 2131099760;
+			
+			// aapt resource value: 0x7f060071
+			public const int data_form_spinner_editor = 2131099761;
+			
+			// aapt resource value: 0x7f060072
+			public const int data_form_switch_editor = 2131099762;
+			
+			// aapt resource value: 0x7f060073
+			public const int data_form_text_editor = 2131099763;
+			
+			// aapt resource value: 0x7f060074
+			public const int data_form_text_viewer = 2131099764;
+			
+			// aapt resource value: 0x7f060064
+			public const int data_form_text_viewer_header = 2131099748;
+			
+			// aapt resource value: 0x7f060075
+			public const int data_form_time_editor = 2131099765;
+			
+			// aapt resource value: 0x7f060076
+			public const int data_form_toggle_editor = 2131099766;
+			
+			// aapt resource value: 0x7f060068
+			public const int data_form_validation_container = 2131099752;
+			
+			// aapt resource value: 0x7f060067
+			public const int data_form_validation_icon = 2131099751;
+			
+			// aapt resource value: 0x7f060069
+			public const int data_form_validation_message_view = 2131099753;
+			
+			// aapt resource value: 0x7f06004a
+			public const int decor_content_parent = 2131099722;
 			
 			// aapt resource value: 0x7f060035
-			public const int customPanel = 2131099701;
-			
-			// aapt resource value: 0x7f06003f
-			public const int decor_content_parent = 2131099711;
-			
-			// aapt resource value: 0x7f06002a
-			public const int default_activity_button = 2131099690;
+			public const int default_activity_button = 2131099701;
 			
 			// aapt resource value: 0x7f06001c
 			public const int dialog = 2131099676;
@@ -1557,20 +3144,23 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f06001d
 			public const int dropdown = 2131099677;
 			
-			// aapt resource value: 0x7f060043
-			public const int edit_query = 2131099715;
+			// aapt resource value: 0x7f06004e
+			public const int edit_query = 2131099726;
 			
 			// aapt resource value: 0x7f060015
 			public const int end = 2131099669;
 			
-			// aapt resource value: 0x7f060060
-			public const int end_padder = 2131099744;
+			// aapt resource value: 0x7f06008d
+			public const int end_padder = 2131099789;
 			
-			// aapt resource value: 0x7f060028
-			public const int expand_activities_button = 2131099688;
+			// aapt resource value: 0x7f060033
+			public const int expand_activities_button = 2131099699;
 			
-			// aapt resource value: 0x7f060038
-			public const int expanded_menu = 2131099704;
+			// aapt resource value: 0x7f060043
+			public const int expanded_menu = 2131099715;
+			
+			// aapt resource value: 0x7f060093
+			public const int groupHeaderText = 2131099795;
 			
 			// aapt resource value: 0x7f060005
 			public const int home = 2131099653;
@@ -1578,44 +3168,65 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f06000e
 			public const int homeAsUp = 2131099662;
 			
-			// aapt resource value: 0x7f06002c
-			public const int icon = 2131099692;
+			// aapt resource value: 0x7f060024
+			public const int horizontal = 2131099684;
+			
+			// aapt resource value: 0x7f060037
+			public const int icon = 2131099703;
 			
 			// aapt resource value: 0x7f060019
 			public const int ifRoom = 2131099673;
 			
-			// aapt resource value: 0x7f060029
-			public const int image = 2131099689;
+			// aapt resource value: 0x7f060034
+			public const int image = 2131099700;
 			
-			// aapt resource value: 0x7f06005f
-			public const int info = 2131099743;
+			// aapt resource value: 0x7f06007a
+			public const int imageView = 2131099770;
+			
+			// aapt resource value: 0x7f06008c
+			public const int info = 2131099788;
+			
+			// aapt resource value: 0x7f06007c
+			public const int inline_event_end = 2131099772;
+			
+			// aapt resource value: 0x7f06007b
+			public const int inline_event_start = 2131099771;
+			
+			// aapt resource value: 0x7f06007d
+			public const int inline_event_title = 2131099773;
 			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
 			
-			// aapt resource value: 0x7f060052
-			public const int left_arrow = 2131099730;
-			
-			// aapt resource value: 0x7f060059
-			public const int line1 = 2131099737;
-			
 			// aapt resource value: 0x7f06005d
-			public const int line3 = 2131099741;
+			public const int left_arrow = 2131099741;
+			
+			// aapt resource value: 0x7f060086
+			public const int line1 = 2131099782;
+			
+			// aapt resource value: 0x7f06008a
+			public const int line3 = 2131099786;
 			
 			// aapt resource value: 0x7f06000a
 			public const int listMode = 2131099658;
 			
-			// aapt resource value: 0x7f06002b
-			public const int list_item = 2131099691;
+			// aapt resource value: 0x7f060036
+			public const int list_item = 2131099702;
 			
-			// aapt resource value: 0x7f060057
-			public const int media_actions = 2131099735;
+			// aapt resource value: 0x7f060084
+			public const int media_actions = 2131099780;
 			
 			// aapt resource value: 0x7f060016
 			public const int middle = 2131099670;
 			
 			// aapt resource value: 0x7f06001f
 			public const int multiply = 2131099679;
+			
+			// aapt resource value: 0x7f06007f
+			public const int navItemsLayout = 2131099775;
+			
+			// aapt resource value: 0x7f060080
+			public const int navigationItemText = 2131099776;
 			
 			// aapt resource value: 0x7f06001a
 			public const int never = 2131099674;
@@ -1626,8 +3237,23 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f06000b
 			public const int normal = 2131099659;
 			
-			// aapt resource value: 0x7f06002e
-			public const int parentPanel = 2131099694;
+			// aapt resource value: 0x7f06008e
+			public const int number_picker_minus = 2131099790;
+			
+			// aapt resource value: 0x7f060090
+			public const int number_picker_plus = 2131099792;
+			
+			// aapt resource value: 0x7f06008f
+			public const int number_picker_view = 2131099791;
+			
+			// aapt resource value: 0x7f060039
+			public const int parentPanel = 2131099705;
+			
+			// aapt resource value: 0x7f060091
+			public const int popup_event_time = 2131099793;
+			
+			// aapt resource value: 0x7f060092
+			public const int popup_event_title = 2131099794;
 			
 			// aapt resource value: 0x7f060006
 			public const int progress_circular = 2131099654;
@@ -1635,53 +3261,53 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f060007
 			public const int progress_horizontal = 2131099655;
 			
-			// aapt resource value: 0x7f06003b
-			public const int radio = 2131099707;
+			// aapt resource value: 0x7f060046
+			public const int radio = 2131099718;
 			
-			// aapt resource value: 0x7f060051
-			public const int right_arrow = 2131099729;
+			// aapt resource value: 0x7f06005c
+			public const int right_arrow = 2131099740;
 			
 			// aapt resource value: 0x7f060020
 			public const int screen = 2131099680;
 			
-			// aapt resource value: 0x7f060033
-			public const int scrollView = 2131099699;
+			// aapt resource value: 0x7f06003e
+			public const int scrollView = 2131099710;
 			
-			// aapt resource value: 0x7f060045
-			public const int search_badge = 2131099717;
-			
-			// aapt resource value: 0x7f060044
-			public const int search_bar = 2131099716;
-			
-			// aapt resource value: 0x7f060046
-			public const int search_button = 2131099718;
-			
-			// aapt resource value: 0x7f06004b
-			public const int search_close_btn = 2131099723;
-			
-			// aapt resource value: 0x7f060047
-			public const int search_edit_frame = 2131099719;
-			
-			// aapt resource value: 0x7f06004d
-			public const int search_go_btn = 2131099725;
-			
-			// aapt resource value: 0x7f060048
-			public const int search_mag_icon = 2131099720;
-			
-			// aapt resource value: 0x7f060049
-			public const int search_plate = 2131099721;
-			
-			// aapt resource value: 0x7f06004a
-			public const int search_src_text = 2131099722;
-			
-			// aapt resource value: 0x7f06004e
-			public const int search_voice_btn = 2131099726;
+			// aapt resource value: 0x7f060050
+			public const int search_badge = 2131099728;
 			
 			// aapt resource value: 0x7f06004f
-			public const int select_dialog_listview = 2131099727;
+			public const int search_bar = 2131099727;
 			
-			// aapt resource value: 0x7f06003a
-			public const int shortcut = 2131099706;
+			// aapt resource value: 0x7f060051
+			public const int search_button = 2131099729;
+			
+			// aapt resource value: 0x7f060056
+			public const int search_close_btn = 2131099734;
+			
+			// aapt resource value: 0x7f060052
+			public const int search_edit_frame = 2131099730;
+			
+			// aapt resource value: 0x7f060058
+			public const int search_go_btn = 2131099736;
+			
+			// aapt resource value: 0x7f060053
+			public const int search_mag_icon = 2131099731;
+			
+			// aapt resource value: 0x7f060054
+			public const int search_plate = 2131099732;
+			
+			// aapt resource value: 0x7f060055
+			public const int search_src_text = 2131099733;
+			
+			// aapt resource value: 0x7f060059
+			public const int search_voice_btn = 2131099737;
+			
+			// aapt resource value: 0x7f06005a
+			public const int select_dialog_listview = 2131099738;
+			
+			// aapt resource value: 0x7f060045
+			public const int shortcut = 2131099717;
 			
 			// aapt resource value: 0x7f060010
 			public const int showCustom = 2131099664;
@@ -1704,41 +3330,50 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f060023
 			public const int src_over = 2131099683;
 			
-			// aapt resource value: 0x7f060056
-			public const int status_bar_latest_event_content = 2131099734;
+			// aapt resource value: 0x7f060083
+			public const int status_bar_latest_event_content = 2131099779;
 			
-			// aapt resource value: 0x7f06004c
-			public const int submit_area = 2131099724;
+			// aapt resource value: 0x7f060057
+			public const int submit_area = 2131099735;
 			
 			// aapt resource value: 0x7f06000c
 			public const int tabMode = 2131099660;
 			
-			// aapt resource value: 0x7f06005e
-			public const int text = 2131099742;
+			// aapt resource value: 0x7f06008b
+			public const int text = 2131099787;
 			
-			// aapt resource value: 0x7f06005c
-			public const int text2 = 2131099740;
+			// aapt resource value: 0x7f060094
+			public const int text1 = 2131099796;
 			
-			// aapt resource value: 0x7f060034
-			public const int textSpacerNoButtons = 2131099700;
+			// aapt resource value: 0x7f060089
+			public const int text2 = 2131099785;
 			
-			// aapt resource value: 0x7f06005a
-			public const int time = 2131099738;
+			// aapt resource value: 0x7f06003f
+			public const int textSpacerNoButtons = 2131099711;
 			
-			// aapt resource value: 0x7f06002d
-			public const int title = 2131099693;
+			// aapt resource value: 0x7f060087
+			public const int time = 2131099783;
 			
-			// aapt resource value: 0x7f060030
-			public const int title_template = 2131099696;
+			// aapt resource value: 0x7f060038
+			public const int title = 2131099704;
 			
-			// aapt resource value: 0x7f06002f
-			public const int topPanel = 2131099695;
+			// aapt resource value: 0x7f06003b
+			public const int title_template = 2131099707;
+			
+			// aapt resource value: 0x7f060077
+			public const int tooltip_content_container = 2131099767;
+			
+			// aapt resource value: 0x7f06003a
+			public const int topPanel = 2131099706;
 			
 			// aapt resource value: 0x7f060009
 			public const int up = 2131099657;
 			
 			// aapt resource value: 0x7f060013
 			public const int useLogo = 2131099667;
+			
+			// aapt resource value: 0x7f060025
+			public const int vertical = 2131099685;
 			
 			// aapt resource value: 0x7f06001b
 			public const int withText = 2131099675;
@@ -1869,49 +3504,169 @@ namespace TelerikSample.Droid
 			public const int calendar_picker = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int dialog = 2130903067;
+			public const int data_form_autocomplete_editor = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int month = 2130903068;
+			public const int data_form_checkbox_editor = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int notification_media_action = 2130903069;
+			public const int data_form_date_editor = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int notification_media_cancel_action = 2130903070;
+			public const int data_form_decimal_editor = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int notification_template_big_media = 2130903071;
+			public const int data_form_default_group_layout = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int notification_template_big_media_narrow = 2130903072;
+			public const int data_form_editor_header_layout_1 = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int notification_template_lines = 2130903073;
+			public const int data_form_editor_layout_1 = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int notification_template_media = 2130903074;
+			public const int data_form_editor_layout_2 = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int notification_template_part_chronometer = 2130903075;
+			public const int data_form_editor_validation_layout_1 = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int notification_template_part_time = 2130903076;
+			public const int data_form_expandable_group_layout = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int select_dialog_item_material = 2130903077;
+			public const int data_form_group_layout = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int select_dialog_multichoice_material = 2130903078;
+			public const int data_form_integer_editor = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int select_dialog_singlechoice_material = 2130903079;
+			public const int data_form_linear_layout = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int support_simple_spinner_dropdown_item = 2130903080;
+			public const int data_form_list_editor = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int week = 2130903081;
+			public const int data_form_list_editor_item = 2130903081;
+			
+			// aapt resource value: 0x7f03002a
+			public const int data_form_number_picker = 2130903082;
+			
+			// aapt resource value: 0x7f03002b
+			public const int data_form_radio_group_editor = 2130903083;
+			
+			// aapt resource value: 0x7f03002c
+			public const int data_form_root_layout = 2130903084;
+			
+			// aapt resource value: 0x7f03002d
+			public const int data_form_seek_bar_editor = 2130903085;
+			
+			// aapt resource value: 0x7f03002e
+			public const int data_form_segmented_editor = 2130903086;
+			
+			// aapt resource value: 0x7f03002f
+			public const int data_form_spinner_editor = 2130903087;
+			
+			// aapt resource value: 0x7f030030
+			public const int data_form_switch_editor = 2130903088;
+			
+			// aapt resource value: 0x7f030031
+			public const int data_form_text_editor = 2130903089;
+			
+			// aapt resource value: 0x7f030032
+			public const int data_form_text_viewer = 2130903090;
+			
+			// aapt resource value: 0x7f030033
+			public const int data_form_time_editor = 2130903091;
+			
+			// aapt resource value: 0x7f030034
+			public const int data_form_toggle_button_editor = 2130903092;
+			
+			// aapt resource value: 0x7f030035
+			public const int default_tooltip_content = 2130903093;
+			
+			// aapt resource value: 0x7f030036
+			public const int dialog = 2130903094;
+			
+			// aapt resource value: 0x7f030037
+			public const int drawer_blur_fade_layer = 2130903095;
+			
+			// aapt resource value: 0x7f030038
+			public const int inline_event = 2130903096;
+			
+			// aapt resource value: 0x7f030039
+			public const int month = 2130903097;
+			
+			// aapt resource value: 0x7f03003a
+			public const int navigation_drawer_content = 2130903098;
+			
+			// aapt resource value: 0x7f03003b
+			public const int navigation_item_view = 2130903099;
+			
+			// aapt resource value: 0x7f03003c
+			public const int notification_media_action = 2130903100;
+			
+			// aapt resource value: 0x7f03003d
+			public const int notification_media_cancel_action = 2130903101;
+			
+			// aapt resource value: 0x7f03003e
+			public const int notification_template_big_media = 2130903102;
+			
+			// aapt resource value: 0x7f03003f
+			public const int notification_template_big_media_narrow = 2130903103;
+			
+			// aapt resource value: 0x7f030040
+			public const int notification_template_lines = 2130903104;
+			
+			// aapt resource value: 0x7f030041
+			public const int notification_template_media = 2130903105;
+			
+			// aapt resource value: 0x7f030042
+			public const int notification_template_part_chronometer = 2130903106;
+			
+			// aapt resource value: 0x7f030043
+			public const int notification_template_part_time = 2130903107;
+			
+			// aapt resource value: 0x7f030044
+			public const int number_picker = 2130903108;
+			
+			// aapt resource value: 0x7f030045
+			public const int on_demand_automatic = 2130903109;
+			
+			// aapt resource value: 0x7f030046
+			public const int on_demand_manual = 2130903110;
+			
+			// aapt resource value: 0x7f030047
+			public const int popup_event = 2130903111;
+			
+			// aapt resource value: 0x7f030048
+			public const int select_dialog_item_material = 2130903112;
+			
+			// aapt resource value: 0x7f030049
+			public const int select_dialog_multichoice_material = 2130903113;
+			
+			// aapt resource value: 0x7f03004a
+			public const int select_dialog_singlechoice_material = 2130903114;
+			
+			// aapt resource value: 0x7f03004b
+			public const int simple_empty_content = 2130903115;
+			
+			// aapt resource value: 0x7f03004c
+			public const int simple_group_header_item = 2130903116;
+			
+			// aapt resource value: 0x7f03004d
+			public const int simple_list_item = 2130903117;
+			
+			// aapt resource value: 0x7f03004e
+			public const int support_simple_spinner_dropdown_item = 2130903118;
+			
+			// aapt resource value: 0x7f03004f
+			public const int tooltip_container = 2130903119;
+			
+			// aapt resource value: 0x7f030050
+			public const int trial_message = 2130903120;
+			
+			// aapt resource value: 0x7f030051
+			public const int week = 2130903121;
 			
 			static Layout()
 			{
@@ -1995,11 +3750,26 @@ namespace TelerikSample.Droid
 			// aapt resource value: 0x7f070014
 			public const int library_name = 2131165204;
 			
+			// aapt resource value: 0x7f07001b
+			public const int list_view_default_empty_content = 2131165211;
+			
 			// aapt resource value: 0x7f070017
 			public const int month_name_format = 2131165207;
 			
+			// aapt resource value: 0x7f07001a
+			public const int on_demand_manual_button_busy = 2131165210;
+			
+			// aapt resource value: 0x7f070019
+			public const int on_demand_manual_button_idle = 2131165209;
+			
 			// aapt resource value: 0x7f070011
 			public const int status_bar_notification_info_overflow = 2131165201;
+			
+			// aapt resource value: 0x7f07001c
+			public const int trial_message = 2131165212;
+			
+			// aapt resource value: 0x7f07001d
+			public const int trial_message_caption = 2131165213;
 			
 			static String()
 			{
@@ -2457,6 +4227,12 @@ namespace TelerikSample.Droid
 			
 			// aapt resource value: 0x7f08001a
 			public const int Platform_V14_AppCompat_Light = 2131230746;
+			
+			// aapt resource value: 0x7f080128
+			public const int RadScrollViewStyle = 2131231016;
+			
+			// aapt resource value: 0x7f080129
+			public const int RadScrollViewTheme = 2131231017;
 			
 			// aapt resource value: 0x7f080020
 			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131230752;
@@ -3111,6 +4887,18 @@ namespace TelerikSample.Droid
 			// aapt resource value: 1
 			public const int AppCompatTextView_textAllCaps = 1;
 			
+			public static int[] CalendarCellState = new int[] {
+					2130772179};
+			
+			// aapt resource value: 0
+			public const int CalendarCellState_state_calendar_cell_today = 0;
+			
+			public static int[] CalendarTheme = new int[] {
+					2130772189};
+			
+			// aapt resource value: 0
+			public const int CalendarTheme_calendarStyle = 0;
+			
 			public static int[] DrawerArrowToggle = new int[] {
 					2130772009,
 					2130772010,
@@ -3341,6 +5129,20 @@ namespace TelerikSample.Droid
 			// aapt resource value: 7
 			public const int MenuView_preserveIconSpacing = 7;
 			
+			public static int[] PointerLayout = new int[] {
+					2130772173,
+					2130772174,
+					2130772175};
+			
+			// aapt resource value: 2
+			public const int PointerLayout_pointerFill = 2;
+			
+			// aapt resource value: 1
+			public const int PointerLayout_pointerMargin = 1;
+			
+			// aapt resource value: 0
+			public const int PointerLayout_pointerSize = 0;
+			
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					2130772025};
@@ -3356,6 +5158,60 @@ namespace TelerikSample.Droid
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
+			
+			public static int[] RadCalendarView = new int[] {
+					2130772180,
+					2130772181,
+					2130772182,
+					2130772183,
+					2130772184,
+					2130772185,
+					2130772186,
+					2130772187,
+					2130772188};
+			
+			// aapt resource value: 0
+			public const int RadCalendarView_calendarBackground = 0;
+			
+			// aapt resource value: 6
+			public const int RadCalendarView_displayMode = 6;
+			
+			// aapt resource value: 8
+			public const int RadCalendarView_isYearModeCompact = 8;
+			
+			// aapt resource value: 5
+			public const int RadCalendarView_selectionMode = 5;
+			
+			// aapt resource value: 4
+			public const int RadCalendarView_showCellDecorations = 4;
+			
+			// aapt resource value: 2
+			public const int RadCalendarView_showDayNames = 2;
+			
+			// aapt resource value: 3
+			public const int RadCalendarView_showGridLines = 3;
+			
+			// aapt resource value: 1
+			public const int RadCalendarView_showTitle = 1;
+			
+			// aapt resource value: 7
+			public const int RadCalendarView_weekNumberDisplayMode = 7;
+			
+			public static int[] RadScrollView = new int[] {
+					2130772176,
+					2130772177};
+			
+			// aapt resource value: 0
+			public const int RadScrollView_fillViewport = 0;
+			
+			// aapt resource value: 1
+			public const int RadScrollView_scrollMode = 1;
+			
+			public static int[] RadScrollViewTheme = new int[] {
+					2130772178};
+			
+			// aapt resource value: 0
+			public const int RadScrollViewTheme_radScrollViewStyle = 0;
 			
 			public static int[] RecyclerView = new int[] {
 					16842948,
