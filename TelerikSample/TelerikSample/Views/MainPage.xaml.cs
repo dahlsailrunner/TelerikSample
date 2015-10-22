@@ -1,4 +1,5 @@
-﻿using TelerikSample.ViewModels;
+﻿using Telerik.XamarinForms.DataControls.ListView;
+using TelerikSample.ViewModels;
 using Xamarin.Forms;
 
 namespace TelerikSample.Views
@@ -15,6 +16,12 @@ namespace TelerikSample.Views
                 bc.LoadData();
                 ActionListView.EndRefresh(true);
             };
+        }
+
+        private void ActionListView_OnItemTapped(object sender, ItemTapEventArgs e)
+        {
+            var bc = BindingContext as MainPageViewModel;
+            if (bc == null) return;
         }
     }
 }

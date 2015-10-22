@@ -63,8 +63,8 @@
         <!--Content-->
         <telerik:RadListView x:Name="ActionListView" Grid.Row="1" ItemsSource="{Binding ActionItems}"
                              IsVisible="True" IsEnabled="True" VerticalOptions="StartAndExpand"
-                             SelectionMode="Single" SelectionGesture="Tap" IsItemSwipeEnabled="True" SwipeThreshold="10"
-                             IsPullToRefreshEnabled="True">
+                             SelectionMode="Single" SelectionGesture="Tap" IsItemSwipeEnabled="False" SwipeThreshold="100"
+                             IsPullToRefreshEnabled="True" ItemTapped="ActionListView_OnItemTapped">
             <telerik:RadListView.GroupDescriptors>
                 <telerikListView:PropertyGroupDescriptor PropertyName="ActionTypeStr"/>
             </telerik:RadListView.GroupDescriptors>
@@ -82,7 +82,7 @@
             </telerik:RadListView.ItemStyle>
             <telerik:RadListView.ItemTemplate>
                 <DataTemplate>
-                    <telerikListView:ListViewTemplateCell>
+                    <telerikListView:ListViewTemplateCell >
                         <telerikListView:ListViewTemplateCell.View>
                             <StackLayout Orientation="Horizontal" Spacing="2" Padding="0,0,0,3">
                                 <controls:CheckBox Checked="{Binding IsSelected, Mode=TwoWay}" BackgroundColor="#f2f2f2" TextColor="#448AFF"></controls:CheckBox>
