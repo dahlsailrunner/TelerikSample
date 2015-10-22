@@ -62,8 +62,8 @@
         </Grid>
         <!--Content-->
         <telerik:RadListView x:Name="ActionListView" Grid.Row="1" ItemsSource="{Binding ActionItems}"
-                             IsVisible="True" IsEnabled="True" VerticalOptions="StartAndExpand"
-                             SelectionMode="Single" SelectionGesture="Tap" IsItemSwipeEnabled="False" SwipeThreshold="100"
+                             IsVisible="True" IsEnabled="True" VerticalOptions="StartAndExpand" ItemSwiping="ActionListView_OnItemSwiping"
+                             SelectionMode="Single" SelectionGesture="Tap" IsItemSwipeEnabled="True" SwipeThreshold="100"
                              IsPullToRefreshEnabled="True" ItemTapped="ActionListView_OnItemTapped">
             <telerik:RadListView.GroupDescriptors>
                 <telerikListView:PropertyGroupDescriptor PropertyName="ActionTypeStr"/>

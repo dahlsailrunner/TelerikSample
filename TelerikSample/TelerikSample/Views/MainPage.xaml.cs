@@ -23,5 +23,11 @@ namespace TelerikSample.Views
             var bc = BindingContext as MainPageViewModel;
             if (bc == null) return;
         }
+
+        private void ActionListView_OnItemSwiping(object sender, ItemSwipingEventArgs e)
+        {
+            var bc = BindingContext as MainPageViewModel;
+            if (bc == null) return;
+        }
     }
 }
