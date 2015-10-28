@@ -93,6 +93,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.IO" />
+    <Reference Include="System.ObjectModel" />
     <Reference Include="System.Runtime" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
@@ -118,6 +119,9 @@
     <Reference Include="Telerik.Xamarin.Android.Primitives, Version=2015.2.930.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\Android\Telerik.Xamarin.Android.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.XamarinForms.Chart">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.Chart.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.ChartRenderer.Android">
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Android\Telerik.XamarinForms.ChartRenderer.Android.dll</HintPath>

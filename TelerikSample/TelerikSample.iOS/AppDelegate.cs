@@ -11,6 +11,8 @@ using Xamarin.Forms.Platform.iOS;
 using Telerik.XamarinForms.DataControlsRenderer.iOS;
 
 [assembly: ExportRenderer(typeof(Telerik.XamarinForms.DataControls.RadListView), typeof(Telerik.XamarinForms.DataControlsRenderer.iOS.ListViewRenderer))]
+[assembly: Xamarin.Forms.ExportRenderer(typeof(Telerik.XamarinForms.Chart.RadCartesianChart), typeof(Telerik.XamarinForms.ChartRenderer.iOS.CartesianChartRenderer))]
+[assembly: Xamarin.Forms.ExportRenderer(typeof(Telerik.XamarinForms.Chart.RadPieChart), typeof(Telerik.XamarinForms.ChartRenderer.iOS.PieChartRenderer))]
 
 namespace TelerikSample.iOS
 {
@@ -29,7 +31,9 @@ namespace TelerikSample.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            new Telerik.XamarinForms.DataControlsRenderer.iOS.ListViewRenderer();            
+            new Telerik.XamarinForms.DataControlsRenderer.iOS.ListViewRenderer();
+            new Telerik.XamarinForms.ChartRenderer.iOS.PieChartRenderer();
+            new Telerik.XamarinForms.ChartRenderer.iOS.CartesianChartRenderer();
 
             Forms.Init(); 
             TelerikForms.Init();           

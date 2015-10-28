@@ -20,8 +20,8 @@ namespace TelerikSample.Views
 
         private void ActionListView_OnItemTapped(object sender, ItemTapEventArgs e)
         {
-            var bc = BindingContext as MainPageViewModel;
-            if (bc == null) return;
+            //var bc = BindingContext as MainPageViewModel;
+            //if (bc == null) return;
         }
 
         private void ActionListView_OnItemSwiping(object sender, ItemSwipingEventArgs e)

@@ -12,7 +12,7 @@ namespace TelerikSample.Models
         UtilityAlert
     }
 
-    public class ActionItem : INotifyPropertyChanged
+    public partial class ActionItem : INotifyPropertyChanged
     {
         private bool _isSelected;
 
@@ -30,7 +30,7 @@ namespace TelerikSample.Models
             {
                 if (value == _isSelected) return;
                 _isSelected = value;
-                OnPropertyChanged("IsSelected");
+                OnPropertyChanged();
             }
         }
 
@@ -66,7 +66,8 @@ namespace TelerikSample.Models
         
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
-            PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            if (PropertyChanged != null)
+                PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

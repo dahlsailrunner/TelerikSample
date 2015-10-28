@@ -158,6 +158,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\iOS\Telerik.Xamarin.iOS.dll</HintPath>
     </Reference>
+    <Reference Include="Telerik.XamarinForms.Chart">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.XamarinForms.ChartRenderer.iOS">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\iOS\Telerik.XamarinForms.ChartRenderer.iOS.dll</HintPath>
+    </Reference>
     <Reference Include="Telerik.XamarinForms.Common, Version=2015.2.825.144, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.Common.dll</HintPath>
