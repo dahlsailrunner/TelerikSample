@@ -166,17 +166,14 @@ namespace TelerikSample.ViewModels
                 switch (actionItem.ActionType)
                 {
                     case ActionItemType.MissingUtilityBill:
-                        actionItem.LeftAction = "View Details";
-                        actionItem.RightAction = "Already Sent";
+                       
                         break;
                     case ActionItemType.PrebillingApproval:
-                        actionItem.LeftAction = "Reject";
-                        actionItem.RightAction = "Approve";
+                        
                         break;
 
                     case ActionItemType.UtilityAlert:
-                        actionItem.LeftAction = "TBD";
-                        actionItem.RightAction = "TBD";
+                        
                         break;
                 }
             }

@@ -2,171 +2,135 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TelerikSample.Views.MainPage"
+             xmlns:xlabs="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             xmlns:t="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
+             xmlns:tlv="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
-            
-             prism:ViewModelLocator.AutowireViewModel="True"            
-             xmlns:telerik="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
-             xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls"
-             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
-             Title="Action Items">
-    <ContentPage.Padding>
-        <OnPlatform x:TypeArguments="Thickness">
-            <OnPlatform.iOS>
-                0, 20, 0, 0
-            </OnPlatform.iOS>
-            <OnPlatform.Android>
-                0, 0, 0, 0
-            </OnPlatform.Android>
-            <OnPlatform.WinPhone>
-                0, 0, 0, 0
-            </OnPlatform.WinPhone>
-        </OnPlatform>
-    </ContentPage.Padding>
-
-
-    <!--Main Grid-->
-    <Grid BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="0" RowSpacing="0">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="6*"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-
-
-        <!--Header Grid-->
-        <Grid Grid.Row="0" BackgroundColor="#448AFF" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="0"
-              Padding="0,0,0,0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
-
-            <StackLayout Grid.Row="0" Orientation="Vertical" Padding="10,0,0,0">
-                <Label Text="Open Action Items" FontSize="20" TextColor="White"
-                   HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
-            </StackLayout>
-            <Grid Grid.Row="1" ColumnSpacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" x:Name="GroupButton" Text="{Binding GroupStr, StringFormat='Grouped by {0}'}" 
-                        BackgroundColor="#448AFF" BorderWidth="0" BorderRadius="0"  FontSize="10"
-                            HorizontalOptions="Start"></Button>
-                <controls:ImageButton BackgroundColor="Transparent" Grid.Column="1" Text="ShareIco" IsEnabled="{Binding AreManySelected}"
-                                          IsVisible="{Binding AreAnySelected}" BorderWidth="0" BorderRadius="0" 
-                                          TextColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"  FontSize="10">
-
-                </controls:ImageButton>
-            </Grid>
-        </Grid>
-        <!--Content-->
-        <telerik:RadListView x:Name="ActionListView" Grid.Row="1" ItemsSource="{Binding ActionItems}"
-                             IsVisible="True" IsEnabled="True" VerticalOptions="StartAndExpand" ItemSwiping="ActionListView_OnItemSwiping"
-                             SelectionMode="Single" SelectionGesture="Tap" IsItemSwipeEnabled="True" SwipeThreshold="100"
-                             IsPullToRefreshEnabled="True" ItemTapped="ActionListView_OnItemTapped">
-            <telerik:RadListView.GroupDescriptors>
-                <telerikListView:PropertyGroupDescriptor PropertyName="ActionTypeStr"/>
-            </telerik:RadListView.GroupDescriptors>
-            <telerik:RadListView.GroupHeaderTemplate>
-                <DataTemplate>
-                    <StackLayout Padding="0,10,0,10" BackgroundColor="#e8e8e8">
-                        <StackLayout Padding="10,0,0,0">
-                            <Label TextColor="Black" Text="{Binding}" FontSize="18"></Label>
-                        </StackLayout>
-                    </StackLayout>
-                </DataTemplate>
-            </telerik:RadListView.GroupHeaderTemplate>
-            <telerik:RadListView.ItemStyle>
-                <telerikListView:ListViewItemStyle BorderLocation="Bottom" BorderWidth="2" BorderColor="#e2e2e2"/>
-            </telerik:RadListView.ItemStyle>
-            <telerik:RadListView.ItemTemplate>
-                <DataTemplate>
-                    <telerikListView:ListViewTemplateCell >
-                        <telerikListView:ListViewTemplateCell.View>
-                            <StackLayout Orientation="Horizontal" Spacing="2" Padding="0,0,0,3">
-                                <controls:CheckBox Checked="{Binding IsSelected, Mode=TwoWay}" BackgroundColor="#f2f2f2" TextColor="#448AFF"></controls:CheckBox>
-                                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="10,0,10,0" Spacing="1">
-                                    <Label Text="{Binding Property, StringFormat='{0}'}" TextColor="Black" FontSize="16" VerticalOptions="Center"></Label>
-                                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="1" Padding="15,0,0,0">
-                                        <Label Text="{Binding Description, StringFormat='{0}'}" 
-                                           FontSize="14" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="Center"></Label>
-                                        <Label Text="{Binding CreatedAt, StringFormat='{0}'}" 
-                                           FontSize="14" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"></Label>
-                                    </StackLayout>
-                                </StackLayout>
-                            </StackLayout>
-                        </telerikListView:ListViewTemplateCell.View>
-                    </telerikListView:ListViewTemplateCell>
-                </DataTemplate>
-            </telerik:RadListView.ItemTemplate>
-            <telerik:RadListView.ItemSwipeContentTemplate>
-                <DataTemplate>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="100"/>
-                            <ColumnDefinition/>
-                            <ColumnDefinition Width="100"/>
-                        </Grid.ColumnDefinitions>
-                        <Button Text="Hello" TextColor="Black" BackgroundColor="Yellow" Grid.Column="0" />
-                        <Button Text="World" TextColor="Black" BackgroundColor="Green" Grid.Column="2" />
+             prism:ViewModelLocator.AutowireViewModel="True">
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness">
+      <OnPlatform.iOS>
+        0, 20, 0, 0
+      </OnPlatform.iOS>
+      <OnPlatform.Android>
+        0, 0, 0, 0
+      </OnPlatform.Android>
+      <OnPlatform.WinPhone>
+        0, 0, 0, 0
+      </OnPlatform.WinPhone>
+    </OnPlatform>
+  </ContentPage.Padding>
+  <ContentPage.Content>
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="5*"/>
+      </Grid.RowDefinitions>
+      <Button Grid.Row="0"
+              Command="{Binding RefreshCommand}"
+              Text="Refresh"
+              BackgroundColor="Green"/>
+      <t:RadListView Grid.Row="1"
+                     x:Name="PropertyListView"
+                     ItemsSource="{Binding ActionItems}"
+                     SwipeOffset="10000"
+                     SwipeThreshold="10"
+                     SelectionMode="Single"
+                     SelectionGesture="Tap"
+                     VerticalOptions="FillAndExpand"
+                     HorizontalOptions="FillAndExpand"
+                     IsItemSwipeEnabled="True"
+                     IsPullToRefreshEnabled="True"
+                     ItemSwiping="ActionListView_OnItemSwiping"
+                     ItemTapped="List_OnItemTapped"
+                     RefreshRequested="ActionListView_OnRefreshRequested"
+                     BackgroundColor="White">
+        <t:RadListView.GroupDescriptors>
+          <tlv:PropertyGroupDescriptor PropertyName="Property"/>
+        </t:RadListView.GroupDescriptors>
+        <t:RadListView.GroupHeaderTemplate>
+          <DataTemplate>
+            <Label Text="{Binding}"
+                   BackgroundColor="Gray"
+                   HorizontalOptions="Start"/>
+          </DataTemplate>
+        </t:RadListView.GroupHeaderTemplate>
+        <t:RadListView.ItemTemplate>
+          <DataTemplate>
+            <tlv:ListViewTemplateCell>
+              <tlv:ListViewTemplateCell.View>
+                <StackLayout>
+                  <StackLayout Padding="5,2,5,3"
+                               IsVisible="{Binding IsPrebillingApproval}"
+                               Orientation="Horizontal">
+                    <xlabs:CheckBox Checked="{Binding IsSelected, Mode=TwoWay}"/>
+                    <Grid Padding="5,0,5,2">
+                      <Grid.RowSpacing>
+                        <OnPlatform x:TypeArguments="x:Double" iOS="2" Android="0"/>
+                      </Grid.RowSpacing>
+                      <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                      </Grid.RowDefinitions>
+                      <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="3*"/>
+                      </Grid.ColumnDefinitions>
+                      <Label Grid.Row="0"
+                             Grid.Column="0"
+                             Text="{Binding ActionTypeStr}"/>
+                      <Label Grid.Row="0" Grid.Column="1"
+                             Text="{Binding CreatedAt}"/>
+                      <Label Grid.Row="2"
+                             Grid.Column="0"
+                             Text="Current"/>
+                      <Label Grid.Row="3"
+                              Grid.Column="0"
+                              Text="Previous"/>
+                      <Label Grid.Row="1"
+                             Grid.Column="1"
+                             Text="Total # Bills"/>
+                      <Label Grid.Row="2"
+                             Grid.Column="1"
+                             Text="{Binding CurrentBillCount}"/>
+                      <Label Grid.Row="3"
+                             Grid.Column="1"
+                             Text="{Binding PreviousBillCount}"/>
+                      <Label Grid.Row="1"
+                             Grid.Column="2"
+                             Text="Avg Bill"/>
+                      <Label Grid.Row="2"
+                             Grid.Column="2"
+                             Text="{Binding CurrentAvgNormalBill, StringFormat='{0:C}'}"/>
+                      <Label Grid.Row="3"
+                             Grid.Column="2"
+                             Text="{Binding PreviousAvgNormalBill, StringFormat='{0:C}'}"/>
+                      <Label Grid.Row="1"
+                             Grid.Column="3"
+                             Text="Max Bill"/>
+                      <Label Grid.Row="2"
+                             Grid.Column="3"
+                             Text="{Binding CurrentMaxNormalBill, StringFormat='{0:C}'}"/>
+                      <Label Grid.Row="3"
+                             Grid.Column="3"
+                             Text="{Binding PreviousMaxNormalBill, StringFormat='{0:C}'}"/>
                     </Grid>
-                </DataTemplate>
-            </telerik:RadListView.ItemSwipeContentTemplate>
-        </telerik:RadListView>
-
-        <telerik:RadListView  x:Name="PropertyListView" Grid.Row="1" ItemsSource="{Binding ActionItems}" 
-                              IsVisible="False" IsEnabled="False" 
-                              IsPullToRefreshEnabled="True" SelectionGesture="Tap" SelectionMode="Single" VerticalOptions="StartAndExpand">
-            <telerik:RadListView.GroupDescriptors>
-                <telerikListView:PropertyGroupDescriptor PropertyName="Property"/>
-            </telerik:RadListView.GroupDescriptors>
-            <telerik:RadListView.SelectedItemStyle>
-                <telerikListView:ListViewItemStyle BackgroundColor="#448AFF" BorderLocation="All"/>
-            </telerik:RadListView.SelectedItemStyle>
-            <telerik:RadListView.GroupHeaderTemplate>
-                <DataTemplate>
-                    <StackLayout Padding="0,0,0,0">
-                        <Label TextColor="Black" Text="{Binding StringFormat=' {0}'}" FontSize="18" BackgroundColor="#e8e8e8" ></Label>
-                    </StackLayout>
-                </DataTemplate>
-            </telerik:RadListView.GroupHeaderTemplate>
-            <telerik:RadListView.ItemTemplate >
-                <DataTemplate>
-                    <telerikListView:ListViewTemplateCell>
-                        <telerikListView:ListViewTemplateCell.View>
-                            <StackLayout Orientation="Horizontal" Spacing="2" Padding="15,0,0,0">
-                                <Label Text="{Binding Description, StringFormat='{0}'}" FontSize="14" TextColor="Black" HorizontalOptions="StartAndExpand"/>
-                                <Label Text="{Binding CreatedAt, StringFormat='{0}'}" FontSize="14" TextColor="Black" HorizontalOptions="End"/>
-                            </StackLayout>
-                        </telerikListView:ListViewTemplateCell.View>
-                    </telerikListView:ListViewTemplateCell>
-                </DataTemplate>
-            </telerik:RadListView.ItemTemplate>
-        </telerik:RadListView>
-
-
-        <!--Footer Grid-->
-        <Grid Grid.Row="2" Padding="2" BackgroundColor="#448AFF">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <StackLayout Grid.Column="0" Orientation="Vertical" Spacing="2" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                <Label Text="Account Manager" FontSize="10" HorizontalOptions="CenterAndExpand"></Label>
-                <StackLayout Orientation="Vertical" Spacing="1">
-                    <Button Text="{Binding AmName, StringFormat='ico - {0}'}" FontSize="10" HorizontalOptions="FillAndExpand" TextColor="Black" 
-                            BackgroundColor="White" BorderRadius="0" Command="{Binding SampleCommand}"/>
-                    <Button Text="{Binding AmEmail, StringFormat='ico - {0}'}" HorizontalOptions="FillAndExpand" FontSize="10"  TextColor="Black" BackgroundColor="White" BorderRadius="0"></Button>
+                  </StackLayout>
                 </StackLayout>
-            </StackLayout>
-            <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="2" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                <Label Text="Property Service Representative" FontSize="10" HorizontalOptions="CenterAndExpand"></Label>
-                <StackLayout Orientation="Vertical" Spacing="1">
-                    <Button Text="{Binding PsrName, StringFormat='ico - {0}'}" HorizontalOptions="FillAndExpand" FontSize="10" TextColor="Black" BackgroundColor="White" BorderRadius="0"></Button>
-                    <Button Text="{Binding PsrEmail, StringFormat='ico - {0}'}" HorizontalOptions="FillAndExpand" FontSize="10" TextColor="Black" BackgroundColor="White" BorderRadius="0"></Button>
-                </StackLayout>
-            </StackLayout>
-        </Grid>
+              </tlv:ListViewTemplateCell.View>
+            </tlv:ListViewTemplateCell>
+          </DataTemplate>
+        </t:RadListView.ItemTemplate>
+        <t:RadListView.ItemSwipeContentTemplate>
+          <DataTemplate>
+            <Label Text="Swiped"/>
+          </DataTemplate>
+        </t:RadListView.ItemSwipeContentTemplate>
+      </t:RadListView>
     </Grid>
+  </ContentPage.Content>
 </ContentPage>

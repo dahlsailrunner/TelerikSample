@@ -38,11 +38,14 @@
     <Compile Include="App.cs" />
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="DataServices\ApiServiceMock.cs" />
+    <Compile Include="DataServices\IInitializer.cs" />
     <Compile Include="ISaveAndLoad.cs" />
     <Compile Include="MainSettingsStuff.cs" />
     <Compile Include="Models\ActionItem-PrebillingApproval.cs" />
     <Compile Include="Models\ActionItem.cs" />
+    <Compile Include="Models\ActionItem_UtilityAlert.cs" />
     <Compile Include="Models\ChartHelper.cs" />
+    <Compile Include="Models\PropertyDetail.cs" />
     <Compile Include="MyBindableBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\ChartPageViewModel.cs" />

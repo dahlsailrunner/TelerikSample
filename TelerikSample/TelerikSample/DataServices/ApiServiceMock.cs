@@ -49,6 +49,51 @@ namespace TelerikSample.DataServices
                 Details = new Dictionary<string, object>()
             });
 
+            list.Add(new ActionItem
+            {
+                ActionType = ActionItemType.PrebillingApproval,
+                Description = "Prebilling Approval",
+                Property = "Residences at Tattooine Village #20931 (22894)",
+                AcctManager = "Erik Dahl",
+                AcctMgrPhone = "545-867-5309",
+                AcctMgrEmail = "me@knowhere.com",
+                PropSvcRep = "Weston Thomas",
+                PsrPhone = "454-867-5309",
+                PsrEmail = "him@knowhere.com",
+                InstanceId = "12345",
+                CreatedAtDt = new System.DateTime(2015, 9, 1, 17, 5, 3),
+                Details = new Dictionary<string, object>()
+                {
+                    {"CurrentBillCount", "212" },
+                    {"PreviousBillCount", "208" },
+                    {"PreviousAvgNormalBill", "48.29" },
+                    { "CurrentAvgNormalBill", "49.02" },
+                    {"PreviousBillingAmount", "3892.04" }
+                }
+            });
+
+            list.Add(new ActionItem
+            {
+                ActionType = ActionItemType.PrebillingApproval,
+                Description = "Prebilling Approval",
+                Property = "Residences at Tattooine Village #20931 (22894)",
+                AcctManager = "Erik Dahl",
+                AcctMgrPhone = "545-867-5309",
+                AcctMgrEmail = "me@knowhere.com",
+                PropSvcRep = "Weston Thomas",
+                PsrPhone = "454-867-5309",
+                PsrEmail = "him@knowhere.com",
+                InstanceId = "12345",
+                CreatedAtDt = new System.DateTime(2015, 9, 1, 17, 5, 3),
+                Details = new Dictionary<string, object>()
+                {
+                    {"CurrentBillCount", "212" },
+                    {"PreviousBillCount", "208" },
+                    {"PreviousAvgNormalBill", "48.29" },
+                    { "CurrentAvgNormalBill", "49.02" },
+                    {"PreviousBillingAmount", "3892.04" }
+                }
+            });
             return list;
         }
 

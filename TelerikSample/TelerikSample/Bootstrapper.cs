@@ -11,8 +11,8 @@ namespace TelerikSample
         {
             try
             {
-                //var page = Container.Resolve<MainPage>();
-                var page = Container.Resolve<ChartPage>();
+                var page = Container.Resolve<MainPage>();
+                //var page = Container.Resolve<ChartPage>();
                 return page;
             }
             catch (ResolutionFailedException ex)

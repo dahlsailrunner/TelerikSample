@@ -92,6 +92,7 @@
     </CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Initializer.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="app.config" />
@@ -154,31 +155,33 @@
     <Reference Include="System.Runtime" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
-    <Reference Include="Telerik.Xamarin.iOS, Version=2015.2.825.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Telerik.Xamarin.iOS, Version=2015.3.1016.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\iOS\Telerik.Xamarin.iOS.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\src\BillingServices\Staging\STAGING\bin\vbin\Telerik-Xamarin\iOS\Telerik.Xamarin.iOS.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.XamarinForms.Chart">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.Chart.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.XamarinForms.ChartRenderer.iOS">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\iOS\Telerik.XamarinForms.ChartRenderer.iOS.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.XamarinForms.Common, Version=2015.2.825.144, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Telerik.XamarinForms.Chart, Version=2015.3.1016.150, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.Common.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\src\BillingServices\Staging\STAGING\bin\vbin\Telerik-Xamarin\XamarinForms\Common\Telerik.XamarinForms.Chart.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.XamarinForms.Common.iOS, Version=2015.3.930.150, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Telerik.XamarinForms.ChartRenderer.iOS, Version=2015.3.1016.150, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\iOS\Telerik.XamarinForms.Common.iOS.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\src\BillingServices\Staging\STAGING\bin\vbin\Telerik-Xamarin\XamarinForms\iOS\Telerik.XamarinForms.ChartRenderer.iOS.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.XamarinForms.DataControls, Version=2015.2.825.144, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Telerik.XamarinForms.Common, Version=2015.3.1016.150, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\Common\Telerik.XamarinForms.DataControls.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\src\BillingServices\Staging\STAGING\bin\vbin\Telerik-Xamarin\XamarinForms\Common\Telerik.XamarinForms.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Telerik.XamarinForms.DataControlsRenderer.iOS, Version=2015.2.825.144, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Telerik.XamarinForms.Common.iOS, Version=2015.3.1016.150, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for Xamarin Q3 2015\Binaries\XamarinForms\iOS\Telerik.XamarinForms.DataControlsRenderer.iOS.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\src\BillingServices\Staging\STAGING\bin\vbin\Telerik-Xamarin\XamarinForms\iOS\Telerik.XamarinForms.Common.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.XamarinForms.DataControls, Version=2015.3.1016.150, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\src\BillingServices\Staging\STAGING\bin\vbin\Telerik-Xamarin\XamarinForms\Common\Telerik.XamarinForms.DataControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.XamarinForms.DataControlsRenderer.iOS, Version=2015.3.1016.150, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\src\BillingServices\Staging\STAGING\bin\vbin\Telerik-Xamarin\XamarinForms\iOS\Telerik.XamarinForms.DataControlsRenderer.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Core, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.1.5.0.6447\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>

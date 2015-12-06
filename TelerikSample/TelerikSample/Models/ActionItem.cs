@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using System.Runtime.CompilerServices;
 
 namespace TelerikSample.Models
@@ -14,15 +15,12 @@ namespace TelerikSample.Models
 
     public partial class ActionItem : INotifyPropertyChanged
     {
-        private bool _isSelected;
-
         public ActionItemType ActionType { get; set; }
-
         public string ActionTypeStr
         {
             get { return ActionType.ToString(); }
         }
-
+        private bool _isSelected;
         public bool IsSelected
         {
             get { return _isSelected; }
@@ -30,12 +28,43 @@ namespace TelerikSample.Models
             {
                 if (value == _isSelected) return;
                 _isSelected = value;
+                IsNotSelected = !value;
                 OnPropertyChanged();
             }
         }
-
+        private bool _isNotSelected;
+        public bool IsNotSelected
+        {
+            get { return _isNotSelected; }
+            private set
+            {
+                _isNotSelected = value;
+                OnPropertyChanged();
+            }
+        }
         public string Description { get; set; }
-        public string Property { get; set; }
+        private string _property;
+        public string Property
+        {
+            get { return _property; }
+            set
+            {
+                if (value == _property) return;
+                _property = value;
+                OnPropertyChanged();
+                OnPropertyChanged("PropertyStr");
+            }
+        }
+        public string PropertyStr
+        {
+            get
+            {
+                if (string.IsNullOrWhiteSpace(Property)) return "";
+                var split = Property.TrimEnd(' ').Split(' ');
+                // ReSharper disable once StringIndexOfIsCultureSpecific.2
+                return Property.Replace(split.Last(), "");
+            }
+        }
         public string AcctManager { get; set; }
         public string AcctMgrPhone { get; set; }
         public string AcctMgrEmail { get; set; }
@@ -43,31 +72,28 @@ namespace TelerikSample.Models
         public string PsrPhone { get; set; }
         public string PsrEmail { get; set; }
         public string InstanceId { get; set; }
-
-        public string LeftAction { get; set; }
-
-        public string RightAction { get; set; }
-
+        
+        public bool IsUtilityAlert
+        {
+            get { return ActionType == ActionItemType.UtilityAlert; }
+        }
         public string CreatedAt
         {
-            get { return CreatedAtDt.Date.ToString().Split(' ')[0]; }
+            get
+            {
+                return CreatedAtDt.Date.ToString().Split(' ')[0];
+            }
         }
-
         public DateTime CreatedAtDt { get; set; }
         public Dictionary<string, object> Details { get; set; }
-        
-        public override string ToString()
-        {
-            return string.Format("{0}-{1}", Description, InstanceId);
-        }
-
-
+        #region Overrides of Object
+        public override string ToString() { return string.Format("{0}-{1}", Description, InstanceId); }
+        #endregion
         public event PropertyChangedEventHandler PropertyChanged;
-        
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
-            if (PropertyChanged != null)
-                PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            if (PropertyChanged == null) return;
+            PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }
